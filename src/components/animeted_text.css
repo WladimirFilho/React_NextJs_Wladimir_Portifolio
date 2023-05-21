@@ -1,0 +1,51 @@
+
+.item {
+    width: 100%;
+    position: relative;
+    top: 0;
+    animation: textChangeMobile 18s steps(3) infinite;
+    margin-bottom: 20px;
+}
+
+@keyframes textChangeMobile {
+    100% {
+        top: -168px
+    }
+}
+
+@keyframes textChange {
+    100% {
+        top: -276px
+    }
+}
+
+.item::after {
+    content: "";
+    background: white;
+    position: absolute;
+    left: 0;
+    height: 74px;
+    width: 100%;
+    border-left: 4px solid black;
+    animation: typing 6s steps(25) infinite;
+}
+
+@keyframes typing {
+    40% {
+        margin-left: -5px;
+        left: 100%;
+    }
+
+    60% {
+        margin-left: -5px;
+        left: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .item {
+        animation: textChange 18s steps(3) infinite;
+        margin-bottom: 20px;
+    }
+
+}
