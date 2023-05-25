@@ -30,7 +30,6 @@ export default function Projects() {
 		}
 	}, []);
 
-
 	return (
 		<div className='w-full lg:min-h-[calc(100vh-160px)] flex flex-col justify-start'>
 			<h1 className='mainTitle mt-20'>Things I did!</h1>
