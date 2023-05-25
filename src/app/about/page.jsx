@@ -10,8 +10,7 @@ export const metadata = {
 	title: "About page",
 };
 
-export const About = () => {
-
+const About = () => {
 	return (
 		<div className='flex flex-col'>
 
@@ -31,26 +30,8 @@ export const About = () => {
 				<div className='flex flex-col items-center'>
 					<p className='mb-16 text-3xl font-bold'>Things I am into</p>
 
-
 					{/* Things card section */}
 					<ThingsCardsSection/>
-
-					{/*<div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mx-auto gap-8'>*/}
-
-
-					{/*	{abilities.map((ability) => (*/}
-					{/*		// eslint-disable-next-line react/jsx-key*/}
-					{/*		<div>*/}
-					{/*			/!*<BsCircleFill className='text-yellow-500' size={35}/>*!/*/}
-					{/*			<ThingsCard*/}
-					{/*				key={ability.id}*/}
-					{/*				ability={ability}*/}
-					{/*			/>*/}
-					{/*		</div>*/}
-					{/*	))}*/}
-
-					{/*</div>*/}
-
 
 				</div>
 
