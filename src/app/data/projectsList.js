@@ -7,7 +7,7 @@ export const juniorDevProjectList = [
 			'Teenagers and young adults have the potential to be the most influential participants in this project. Smartphones, mobile applications, and technology are already essential to their daily lives. MyFunCity is a wordplay that is easy to remember and repeat, and it also explains our goal with that application and will undoubtedly connect with our target audience.\n',
 		features: ['Sign in and register', 'General survey', 'Various themes and questions', 'Search different answers' +
 		' from different places', 'Read the reviews'],
-		techStack: ['/assets/project_images/icons_images/flutter.png', '/assets/project_images/icons_images/firebase.png', '/assets/project_images/icons_images/android_studio.png'],
+		techStack: ['/assets/project_images/icons_images/flutter.png', '/assets/project_images/icons_images/firebase.png', '/assets/project_images/icons_images/android_studio.png', '/assets/project_images/icons_images/vscode.png'],
 		images: ['/assets/project_images/myFunCity/image_1.png', '/assets/project_images/myFunCity/image_2.png', '/assets/project_images/myFunCity/image_3.png'],
 	},
 	{
@@ -15,11 +15,20 @@ export const juniorDevProjectList = [
 		title: 'Music Player',
 		description: 'The homepage of the music player layout exhibits a neumorphic design. This application is currently under development.',
 		ideaDescription: 'This is a minimalistic idea for a Flutter-based mobile app featuring a neomorphic design.' +
+			' This project is currently in the development stage and serves as a practice exercise.',
+		features: ['List of music', 'Favorites', 'Music Display'],
+		techStack: ['/assets/project_images/icons_images/dart.svg', '/assets/project_images/icons_images/flutter.png', '/assets/project_images/icons_images/vscode.png'],
+		images: ['/assets/project_images/music_player/player_mockup1.png', '/assets/project_images/music_player/player_mockup2.png'],
+	},
+	{
+		id: 3,
+		title: 'Todo List',
+		description: 'A simple Todo list.',
+		ideaDescription: 'This is a minimalistic idea for a Flutter-based mobile app featuring a neomorphic design.' +
 			' The project is currently in the development stage and serves as a practice exercise.',
-		features: ['Sign in and register', 'General survey', 'Various themes and questions', 'Search different answers' +
-		' from different places', 'Read the reviews'],
-		techStack: ['/assets/project_images/icons_images/flutter.png'],
-		images: ['/assets/project_images/myFunCity/image_1.png', '/assets/project_images/myFunCity/image_2.png', '/assets/project_images/myFunCity/image_3.png'],
+		features: ['New notes', 'CheckBox', 'Delete notes using the slider'],
+		techStack: ['/assets/project_images/icons_images/dart.svg', '/assets/project_images/icons_images/flutter.png', '/assets/project_images/icons_images/vscode.png'],
+		images: ['/assets/project_images/todo/todo.mockup2.png', '/assets/project_images/todo/todo.mockup.png',],
 	},
 ]
 

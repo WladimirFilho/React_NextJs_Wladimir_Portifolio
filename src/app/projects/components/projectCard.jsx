@@ -24,7 +24,7 @@ const ProjectCard = ({project, type}) => {
 					</ul>
 				</div>
 
-				<Image className='w-full h-[300px] object-cover '
+				<Image className='w-full h-[300px] object-cover border border-b-neutral-200'
 				       width={700}
 				       height={700}
 				       src={project.images[0]}
