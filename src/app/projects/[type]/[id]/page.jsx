@@ -1,6 +1,6 @@
 'use client'
 
-import {DescriptionComponent} from "../../components/DescriptionComponent";
+import {DevJobDescriptionComponent} from "../../components/DevJobDescriptionComponent";
 import {designerProjectList, juniorDevProjectList} from "../../../data/projectsList";
 import {ImageComponent} from "../../components/ImageComponent";
 import {useRouter} from "next/navigation";
@@ -36,7 +36,7 @@ const Project = ({params}) => {
 				<ImageComponent
 					project={project}
 				/>
-				<DescriptionComponent
+				<DevJobDescriptionComponent
 					project={project}
 				/>
 			</section>
