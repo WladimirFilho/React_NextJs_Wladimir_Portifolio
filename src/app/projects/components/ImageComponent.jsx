@@ -3,7 +3,7 @@ import Image from "next/image";
 export const ImageComponent = ({project}) => {
 	return (
 
-		<div className='w-[60%]'>
+		<div className='lg:w-[60%]'>
 			{project.images.map((image, index) =>
 				<Image
 					alt='image'

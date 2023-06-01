@@ -1,21 +1,22 @@
 
 .item {
+
     width: 100%;
     position: relative;
     top: 0;
-    animation: textChangeMobile 18s steps(3) infinite;
+    animation: textChangeMobile 30s steps(5) infinite;
     margin-bottom: 20px;
 }
 
 @keyframes textChangeMobile {
     100% {
-        top: -168px
+        top: -280px
     }
 }
 
 @keyframes textChange {
     100% {
-        top: -276px
+        top: -460px
     }
 }
 
@@ -24,7 +25,7 @@
     background: white;
     position: absolute;
     left: 0;
-    height: 74px;
+    height: 84px;
     width: 100%;
     border-left: 4px solid black;
     animation: typing 6s steps(25) infinite;
@@ -44,7 +45,7 @@
 
 @media (min-width: 1024px) {
     .item {
-        animation: textChange 18s steps(3) infinite;
+        animation: textChange 30s steps(5) infinite;
         margin-bottom: 20px;
     }
 

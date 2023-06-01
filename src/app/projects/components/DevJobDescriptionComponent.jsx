@@ -5,7 +5,7 @@ import Link from "next/link";
 export const DevJobDescriptionComponent = ({project}) => {
 	return (
 		<>
-			<div className='w-[40%]'>
+			<div className='lg:w-[40%]'>
 				<div>
 					<h1 className='projectTitle'>{project.title}</h1>
 					<p className='projectDescription'>{project.description}</p>

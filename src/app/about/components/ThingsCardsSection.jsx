@@ -4,7 +4,7 @@ import {BsCircleFill} from "react-icons/all";
 
 export const ThingsCardsSection = () => {
 	return (
-		<div className='grid grid-cols-3 gap-8'>
+		<div className='lg:grid lg:grid-cols-3 gap-8 flex flex-col'>
 
 			{abilities.map((ability) => (
 				<div className='flex gap-6' key={ability.id}>

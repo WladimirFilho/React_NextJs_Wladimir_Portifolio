@@ -36,9 +36,10 @@ const About = () => {
 				</div>
 
 			</section>
-			<section className='min-h-[calc(100vh-88px)] flex flex-col justify-start items-center'>
+			<section
+				className='lg:min-h-[calc(100vh-88px)] min-h-[calc(100vh-152px)] flex flex-col justify-start items-center'>
 
-				<h2 className='mainTitle'>Education & experience</h2>
+				<h2 className='mainTitle lg:mt-0 mt-12'>Education & experience</h2>
 
 				<div className='w-full flex flex-col lg:flex-row justify-center items-start gap-32'>
 					<div className='flex'>
