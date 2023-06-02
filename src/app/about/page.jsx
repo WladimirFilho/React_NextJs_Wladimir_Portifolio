@@ -16,11 +16,12 @@ const About = () => {
 
 			{/* Header section */}
 			<section className='w-full lg:px-16 min-h-[calc(100vh-88px)] flex flex-col justify-center'>
-				<div className="max-w-[768px] mx-auto mb-16 lg:mb-32 flex flex-col items-center">
+				<div className="max-w-[768px] mx-auto mb-16 lg:mb-20 flex flex-col items-center">
 					<h1 className='mainTitle'>I little bit
-						about me and my aspirations</h1>
-					<p className='text-center '>After many years of experience as an Art Director, working with diverse products
-						and clients,<br/> I made the decision to change my career path and pursue one of my passions: the world of
+						about me!</h1>
+					<p className='text-center mb-16'>After many years of experience as an Art Director, working with diverse
+						products
+						and clients, I made the decision to change my career path and pursue one of my passions: the world of
 						development. This led me to embark on a new journey in another country, where I immersed myself in learning
 						a new language and improve my skills as a web and mobile developer.</p>
 				</div>
@@ -28,7 +29,7 @@ const About = () => {
 
 				{/* Cards My Abilities */}
 				<div className='flex flex-col items-center'>
-					<p className='mb-16 text-3xl font-bold'>Things I am into</p>
+					{/*<p className='mb-16 text-3xl font-bold'>Things I am into</p>*/}
 
 					{/* Things card section */}
 					<ThingsCardsSection/>
