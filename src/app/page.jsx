@@ -16,7 +16,7 @@ export default function Home() {
 				<h2 className='lg:h-[84px] h-[40px]'>Based in Sydney</h2>
 			</div>
 
-			<div className='flex flex-col absolute right-8 top-[37%] text-sm gap-12 justify-center'>
+			<div className='flex lg:flex-col lg:absolute right-8 top-[37%] text-sm gap-12 justify-center'>
 
 				<Link href='https://github.com/WladimirFilho'>
 					<AiFillGithub size={30}/>
