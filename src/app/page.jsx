@@ -5,7 +5,8 @@ import Link from "next/link";
 export default function Home() {
 	return (
 		<section
-			className=" flex flex-col gap-2 lg:gap-5 justify-between text-center items-center lg:text-7xl text-3xl font-bold mt-[-80px] lg:h-[calc(100vh-88px)] h-[calc(100vh-152px)]">
+			className="flex flex-col gap-2 lg:gap-5 justify-between text-center items-center lg:text-7xl text-3xl font-bold mt-[-80px] lg:h-[calc(100vh-88px)] h-[calc(100vh-152px)]">
+
 
 			<div className='flex-1 flex flex-col justify-center'>
 				<h2 className='lg:h-[84px] h-[40px]'>Hi!</h2>
@@ -15,7 +16,7 @@ export default function Home() {
 				<h2 className='lg:h-[84px] h-[40px]'>Based in Sydney</h2>
 			</div>
 
-			<div className='flex text-sm gap-12 justify-center'>
+			<div className='flex flex-col absolute right-8 top-[37%] text-sm gap-12 justify-center'>
 
 				<Link href='https://github.com/WladimirFilho'>
 					<AiFillGithub size={30}/>

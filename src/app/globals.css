@@ -11,7 +11,7 @@
 
 
 .mainTitle {
-    @apply text-3xl mb-16 lg:text-7xl font-bold text-center lg:mb-32
+    @apply text-4xl lg:text-7xl font-bold text-center
 }
 
 .projectTitle {

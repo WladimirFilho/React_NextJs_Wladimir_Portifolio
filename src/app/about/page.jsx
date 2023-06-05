@@ -15,21 +15,23 @@ const About = () => {
 		<div className='flex flex-col'>
 
 			{/* Header section */}
-			<section className='w-full lg:px-16 min-h-[calc(100vh-88px)] flex flex-col justify-center'>
-				<div className="max-w-[768px] mx-auto mb-16 lg:mb-20 flex flex-col items-center">
-					<h1 className='mainTitle'>I little bit
-						about me!</h1>
-					<p className='text-center mb-16'>After many years of experience as an Art Director, working with diverse
-						products
-						and clients, I made the decision to change my career path and pursue one of my passions: the world of
-						development. This led me to embark on a new journey in another country, where I immersed myself in learning
-						a new language and improve my skills as a web and mobile developer.</p>
+			<section className='w-full lg:px-16 min-h-[calc(100vh-88px)] flex flex-col justify-around items-center'>
+				<h1 className='mainTitle lg:mt-18 mt-18'>I little bit
+					about me!</h1>
+				<div className="max-w-[900px] mx-auto flex flex-col items-center">
+
+					<p className='text-center lg:mt-0 mt-20'>After years of experience as an <span
+						className='font-semibold'>Art Director 🎨 </span>
+						working with range of
+						products and clients, I made the decision to change my career path and pursue one of my passions:<span
+							className='font-semibold'> the
+						magnificent world
+						of developing applications 🧑‍💻.</span></p>
 				</div>
 
 
 				{/* Cards My Abilities */}
-				<div className='flex flex-col items-center'>
-					{/*<p className='mb-16 text-3xl font-bold'>Things I am into</p>*/}
+				<div className='flex flex-col items-center lg:mt-0 mt-20'>
 
 					{/* Things card section */}
 					<ThingsCardsSection/>
@@ -40,7 +42,7 @@ const About = () => {
 			<section
 				className='lg:min-h-[calc(100vh-88px)] min-h-[calc(100vh-152px)] flex flex-col justify-start items-center'>
 
-				<h2 className='mainTitle lg:mt-0 mt-12'>Education & experience</h2>
+				<h2 className='mainTitle mt-20 mb-20 lg:mb-28'>Education & experience</h2>
 
 				<div className='w-full flex flex-col lg:flex-row justify-center items-start gap-32'>
 					<div className='flex'>

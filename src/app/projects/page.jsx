@@ -41,8 +41,8 @@ export default function Projects() {
 				        className={`text-xl font-medium ${selected.design && 'text-yellow-500'}`}>as Designer
 				</button>
 			</div>
-			<section>
-				<ul className='gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 '>
+			<section className='lg:h-full'>
+				<ul className='gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 '>
 					{projects.map((project) =>
 						<ProjectCard
 							type={selected.dev ? 'dev' : 'design'}
