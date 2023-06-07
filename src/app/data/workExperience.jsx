@@ -2,10 +2,10 @@ export const workExperience = [
 	{
 		'title': 'CC&P Advertising services - 2016',
 		'subtitle': 'Creative Art Director',
-		'description': 'I have had the opportunity to work on many projects that helped the developing and sharpening my' +
-			' skills as a creative person. I also learned to approach' +
-			' complex design challenges with a creative mindset, being collaborate with clients and colleagues to' +
-			' deliver good results to all stakeholders.',
+		'description': 'I have had the opportunity to work on many projects as an Art director. Those projects helped the' +
+			' developing of my skills as a creative person. I learned to approach design challenges with a creative' +
+			' mindset, being collaborate with clients and colleagues to' +
+			' deliver good results.',
 	},
 	{
 		'title': 'Volcano Hotmind, Advertising and Production - 2012 ',
@@ -16,17 +16,16 @@ export const workExperience = [
 	{
 		'title': 'DZN Advertising and Marketing - 2010 ',
 		'subtitle': 'Account Executive.',
-		'description': 'Account Executive, responsible to pitch new ideas to customers, helping to' +
-			' increasing sales and revenue. Follow up on production process and products with print shops and other' +
+		'description': 'Account Executive responsible to pitch new ideas to customers. Follow up on production process' +
+			' and products with print shops and other' +
 			' suppliers to ensure time and cost-effective delivery. And on top of that, maintaining a good relationship' +
-			' with clients',
+			' with clients.',
 	},
 	{
 		'title': 'Carrefour Retail - 2007 ',
 		'subtitle': 'Advertising Analyst',
-		'description': 'Working as an Advertising Analyst, I acquired the skills in analyzing advertising campaigns to' +
-			' improve' +
-			' their effectiveness. Using data and analytical tools to evaluate campaign performance, identify areas for' +
-			' improvement, and provide actionable recommendations.',
+		'description': 'Working as an Advertising Analyst, I acquired the skills in analyzing campaigns and results to' +
+			' improve their effectiveness, using data and analytical tools to evaluate campaign performance, identify' +
+			' areas for improvement, and provide actionable recommendations.',
 	},
 ]

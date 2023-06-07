@@ -32,7 +32,7 @@ export default function Projects() {
 
 	return (
 		<div className='w-full lg:min-h-[calc(100vh-160px)] flex flex-col justify-start'>
-			<h1 className='mainTitle mt-20'>Things I did!</h1>
+			<h1 className='mainTitle mt-20 mb-20'>Things I did!</h1>
 			<div className='w-full flex justify-center gap-24 mb-8'>
 				<button onClick={cardsDevChangeHandler}
 				        className={`text-xl font-medium ${selected.dev && 'text-yellow-500'}`}>as Junior Dev

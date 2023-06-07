@@ -15,16 +15,19 @@ export const education = [
 	},
 	{
 		'title': 'FECAP - Brazil',
-		'subtitle': 'Bachelor degree - Marketing, creation and advertising',
-		'description': ' UNI FECAP - School of Business Alvares Penteado Foundation. Social Communication Skills in' +
+		'date': '2011',
+		'subtitle': '',
+		'description': 'Bachelor degree, Marketing and advertising, School of Business Alvares Penteado' +
+			' Foundation. Social Communication Skills in' +
 			' Advertising and emphasis on Marketing',
 	},
 	{
 		'title': 'SENAC - Brazil',
-		'subtitle': 'Creative process and design',
-		'description': ' An approach taken by creative professionals to generate fresh ideas, navigate through the' +
-			' design process. Studying the fusion of creativity, research, problem-solving, and aesthetics to create' +
-			' appealing designs.',
+		'date': '2010',
+		'subtitle': '',
+		'description': ' Creative process and design. An approach taken by creative professionals to generate fresh' +
+			' ideas, navigate through the' +
+			' design process. Studying creativity, research and problem-solving.',
 	},
 
 ]
