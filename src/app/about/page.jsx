@@ -21,8 +21,10 @@ const About = () => {
 					about me!</h1>
 				<div className="max-w-[900px] mx-auto flex flex-col items-center">
 
-					<p className='text-center text-2xl lg:mt-0 mt-20'>After years of experience as an <span
-						className='font-semibold'>Art Director 🎨 </span>
+					<p className='text-center lg:text-2xl text-xl lg:mt-0 mt-20 lg:leading-relaxed '>After over 10 years of
+						experiences as
+						an <span
+							className='font-semibold'>Art Director 🎨 </span>
 						working with range of
 						products and clients, I made the decision to change my career path and pursue one of my passions:<span
 							className='font-semibold'> the

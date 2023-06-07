@@ -30,7 +30,7 @@ export default function Home() {
 					<BsBehance size={30}/>
 				</Link>
 
-				<Link href='/assets/wladimir_resume.pdf' download>
+				<Link href='/assets/wladimir_filho_resume.pdf' download>
 					<MdOutlinePictureAsPdf size={30}/>
 				</Link>
 
