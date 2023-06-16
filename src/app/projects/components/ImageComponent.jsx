@@ -1,20 +1,18 @@
 import Image from "next/image";
 
-export const ImageComponent = ({project}) => {
-	return (
-
-		<div className='lg:w-[60%]'>
-			{project.images.map((image, index) =>
-				<Image
-					alt='image'
-					className='w-full mb-12'
-					key={index}
-					width={1000}
-					height={1000}
-					src={image}
-				/>
-			)}
-		</div>
-
-	)
-}
+export const ImageComponent = ({ project }) => {
+  return (
+    <div className="lg:w-[60%]">
+      {project.images.map((image, index) => (
+        <Image
+          alt="image"
+          className="w-full mb-12"
+          key={index}
+          width={1000}
+          height={1000}
+          src={image}
+        />
+      ))}
+    </div>
+  );
+};

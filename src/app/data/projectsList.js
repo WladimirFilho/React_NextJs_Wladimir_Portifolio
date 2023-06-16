@@ -1,3 +1,7 @@
+import igniteCover from "../../../public/ignite_cover.png";
+import igniteTwo from "../../../public/ignite_02.png";
+import reactIcon from "../../../public/react.svg";
+
 export const juniorDevProjectList = [
   {
     id: 1,
@@ -5,7 +9,7 @@ export const juniorDevProjectList = [
     description:
       "The MyFunCity project is a complete campaign to collect and analyze data from various target audiences via a mobile application to create a product that governments and businesses can use to track issues in people's environments and deliver ideas to help solve depression and anxiety issues. ",
     ideaDescription:
-      'The project aims to bring people together in their community to identify and solve daily problems that may affect our lives. Still, because we are always busy and occupied, we need help to change our neighbourhood. In those moments, one might wonder, "How can I make MY CITY better, more efficient, and more FUN?"\n' +
+      'The project aims to bring people together in their community to identify and solve daily problems that may affect our lives. Still, because we are always busy and occupied, we need help to change our neighborhood. In those moments, one might wonder, "How can I make MY CITY better, more efficient, and more FUN?"\n' +
       "Teenagers and young adults have the potential to be the most influential participants in this project. Smartphones, mobile applications, and technology are already essential to their daily lives. MyFunCity is a wordplay that is easy to remember and repeat, and it also explains our goal with that application and will undoubtedly connect with our target audience.\n",
     features: [
       "Sign in and register",
@@ -79,26 +83,23 @@ export const juniorDevProjectList = [
     linkTitle: "See the code. Tell me what you think!",
     link: "https://github.com/WladimirFilho/Flutter-TodoList.git",
   },
+
   {
     id: 4,
     title: "Ignite Blog",
-    description: "A simple blog that shows posts and comments.",
+    description:
+      "A Blog that shows posts and comments. Made using React Js, CSS Modules and Vite",
     ideaDescription:
-      "This project is another styding situation. Where I can combine my knowledge of React JS, with a project that can be used in the future for a real pourpose. A shout out to the guys from RocketSeat for the tutorials. This project is not even neard to be finished yet. I have lots to implement.",
-    features: [
-      "Vite",
-      "React Js",
-      "New posts (to be implemented)",
-      "Hive as local storage",
-    ],
-    techStack: ["/assets/project_images/icons_images/dart.svg"],
-    images: [
-      "/assets/project_images/todo/todo.mockup2.png",
-      "/assets/project_images/todo/todo.mockup.png",
-    ],
-    projectIcon: "/icons/git.svg",
-    linkTitle: "See the code. Tell me what you think!",
-    link: "https://github.com/WladimirFilho/Flutter-TodoList.git",
+      "That is another project that helps me improve my skills and align with my studying routine. This project can combine my knowledge of React JS, with an idea that can be used in the future for a real purpose. A shout-out to the guys from RocketSeat for the tutorials. This project is not even near to being finished yet. I still have a lot to implement.",
+    features: ["Vite", "React Js", "Multiple packages", "Adding new posts"],
+    techStack: ["/assets/project_images/icons_images/vite.svg", reactIcon],
+
+    images: [igniteCover, igniteTwo],
+
+    projectIcon:
+      "/assets/project_images/icons_images/logo-vercel-svgrepo-com.svg",
+    linkTitle: "See the project. Tell me what you think!",
+    link: "https://ignite-project-5tqf6clg8-wladimirfilho.vercel.app/",
   },
 ];
 

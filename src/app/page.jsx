@@ -34,7 +34,7 @@ export default function Home() {
         </Link>
 
         <div className="flex gap-4 items-center">
-          <h2> Resume -&gt; </h2>
+          <h2 className="lg:block hidden"> Resume -&gt; </h2>
           <Link
             href="/assets/wladimir_filho_resume_and_cover_letter.pdf"
             download
