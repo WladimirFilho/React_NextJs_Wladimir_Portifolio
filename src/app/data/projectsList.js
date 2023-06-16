@@ -79,6 +79,27 @@ export const juniorDevProjectList = [
     linkTitle: "See the code. Tell me what you think!",
     link: "https://github.com/WladimirFilho/Flutter-TodoList.git",
   },
+  {
+    id: 4,
+    title: "Ignite Blog",
+    description: "A simple blog that shows posts and comments.",
+    ideaDescription:
+      "This project is another styding situation. Where I can combine my knowledge of React JS, with a project that can be used in the future for a real pourpose. A shout out to the guys from RocketSeat for the tutorials. This project is not even neard to be finished yet. I have lots to implement.",
+    features: [
+      "Vite",
+      "React Js",
+      "New posts (to be implemented)",
+      "Hive as local storage",
+    ],
+    techStack: ["/assets/project_images/icons_images/dart.svg"],
+    images: [
+      "/assets/project_images/todo/todo.mockup2.png",
+      "/assets/project_images/todo/todo.mockup.png",
+    ],
+    projectIcon: "/icons/git.svg",
+    linkTitle: "See the code. Tell me what you think!",
+    link: "https://github.com/WladimirFilho/Flutter-TodoList.git",
+  },
 ];
 
 export const designerProjectList = [
