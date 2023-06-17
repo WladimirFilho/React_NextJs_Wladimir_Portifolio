@@ -1,6 +1,7 @@
 import igniteCover from "../../../public/ignite_cover.png";
 import igniteTwo from "../../../public/ignite_02.png";
 import reactIcon from "../../../public/react.svg";
+// import getxLogo from "../../../public/getx_logo.png";
 
 export const juniorDevProjectList = [
   {
@@ -37,10 +38,9 @@ export const juniorDevProjectList = [
     id: 2,
     title: "Music Player",
     description:
-      "The homepage of the music player layout exhibits a neumorphic design. This application is currently under development.",
+      "The homepage of the music player layout exhibits a Neumorphic design. This application is currently under development.",
     ideaDescription:
-      "This is a minimalistic idea for a Flutter-based mobile app featuring a neomorphic design." +
-      " This project is currently in the development stage and serves as a practice exercise.",
+      "I'm currently working on a Flutter-based mobile app with a minimalist design, incorporating neomorphic elements. As a junior developer, I find certain aspects of the development process, such as modules, dependency injection, and serialization, quite challenging. However, with the help of GetX, which has been a fantastic experience, I am able to navigate through these complexities. GetX has been instrumental in managing modules, dependency injection, serialization, and many other aspects of my project. Additionally, I'm also exploring the use of the HTTP package to fetch data from an API that I created, allowing me to simulate real-world scenarios. While the pages of my app are still taking shape, each time I work on the project, it feels like diving into a new chapter of a book. This app serves as a valuable practice exercise, and I'm thrilled to be using GetX as the main package in my development journey.",
     features: ["List of music", "Favorites", "Music Display"],
     techStack: [
       "/assets/project_images/icons_images/dart.svg",
@@ -86,6 +86,26 @@ export const juniorDevProjectList = [
 
   {
     id: 4,
+    title: "Music player",
+    description:
+      "An Elegant music player, that combines React Js, Props, Static Files and so on.",
+    ideaDescription: "No description yet",
+    features: ["React Js", "Multiple packages", "Music controllers"],
+    techStack: ["/assets/project_images/icons_images/vite.svg", reactIcon],
+
+    images: [
+      "/react_musicplayer_01.png",
+      "/react_musicplayer_02.png",
+      "/react_musicplayer_03.png",
+    ],
+
+    projectIcon:
+      "/assets/project_images/icons_images/logo-vercel-svgrepo-com.svg",
+    linkTitle: "See the project. Tell me what you think!",
+    link: "#",
+  },
+  {
+    id: 5,
     title: "Ignite Blog",
     description:
       "A Blog that shows posts and comments. Made using React Js, CSS Modules and Vite",
@@ -94,7 +114,7 @@ export const juniorDevProjectList = [
     features: ["Vite", "React Js", "Multiple packages", "Adding new posts"],
     techStack: ["/assets/project_images/icons_images/vite.svg", reactIcon],
 
-    images: [igniteCover, igniteTwo],
+    images: ["/ignite_cover.png"],
 
     projectIcon:
       "/assets/project_images/icons_images/logo-vercel-svgrepo-com.svg",
@@ -102,6 +122,8 @@ export const juniorDevProjectList = [
     link: "https://ignite-project-5tqf6clg8-wladimirfilho.vercel.app/",
   },
 ];
+
+////////////////////////////////////////////////////////////////////////
 
 export const designerProjectList = [
   {
@@ -113,7 +135,7 @@ export const designerProjectList = [
     ideaDescription:
       "- The central idea behind the campaign revolved around the notion that BR Mania serves as more" +
       " than just a petrol station. It is a bustling hub where different aspects of a person's character and preferences seamlessly come together. Whether it's the early risers stopping by for a fresh cup of coffee, professionals catching a quick snack during their lunch break, or night owls fueling up for their late-night adventures, BR Mania caters to the diverse needs and moods of its customers at any hour. The campaign sought to capture the essence of this dynamic environment through creative visuals, captivating slogans, and relatable narratives. Each advertisement showcased various characters representing different personality traits, demonstrating how BR Mania accommodates everyone within its welcoming atmosphere. From the energetic and ambitious to the laid-back and contemplative, the campaign emphasized that every individual can find a place to connect and feel at home inside BR Mania.",
-    // eslint-disable-next-line react/jsx-key
+
     features: [],
     techStack: [
       "/assets/project_images/icons_images/ai.png",

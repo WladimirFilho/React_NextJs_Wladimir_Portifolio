@@ -6,11 +6,12 @@ export const ImageComponent = ({ project }) => {
       {project.images.map((image, index) => (
         <Image
           alt="image"
-          className="w-full mb-12"
+          className="w-full h-auto mb-12"
           key={index}
-          width={1000}
-          height={1000}
+          width={2000}
+          height={2000}
           src={image}
+          priority
         />
       ))}
     </div>
