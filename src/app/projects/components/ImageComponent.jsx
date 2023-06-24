@@ -5,6 +5,7 @@ export const ImageComponent = ({ project }) => {
     <div className="lg:w-[60%]">
       {project.images.map((image, index) => (
         <Image
+          unoptimized={true}
           alt="image"
           className="w-full h-auto mb-12"
           key={index}

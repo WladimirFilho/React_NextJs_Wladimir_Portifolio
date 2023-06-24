@@ -7,7 +7,6 @@ export const DevJobDescriptionComponent = ({ project }) => {
       <div className="lg:w-[40%]">
         <div>
           <h1 className="projectTitle">{project.title}</h1>
-          <p className="projectDescription">{project.description}</p>
         </div>
         <div>
           <h2 className="projectSubtitle">Idea</h2>
@@ -19,31 +18,40 @@ export const DevJobDescriptionComponent = ({ project }) => {
           {/* Features */}
           <ul>
             {project.features?.map((feature, index) => (
-              <li className="mb-1" key={index}>
+              <li className="mb-4 list-disc" key={index}>
                 {feature}
               </li>
             ))}
           </ul>
 
           {/* Stack Tech */}
-          <ul className="mt-4 flex gap-3">
+          <ul className="mt-12 flex gap-8">
             {project.techStack.map((item, index) => (
               <li key={index}>
-                <Image src={item} alt="tech stack" width={30} height={30} />
+                <Image
+                  priority
+                  unoptimized={true}
+                  src={item}
+                  alt="tech stack"
+                  width={50}
+                  height={50}
+                />
               </li>
             ))}
           </ul>
 
           {/* Features */}
-          <h2 className="mt-16 font-semibold">{project.linkTitle}</h2>
+          <h2 className="mt-16 text-2xl font-semibold">{project.linkTitle}</h2>
 
           <Link href={project.link}>
             <Image
-              className="mt-4"
+              priority
+              unoptimized={true}
+              className="mt-8"
               src={project.projectIcon}
-              width={30}
-              height={30}
-              alt="gitHub"
+              width={50}
+              height={50}
+              alt="link to project"
             />
           </Link>
         </div>

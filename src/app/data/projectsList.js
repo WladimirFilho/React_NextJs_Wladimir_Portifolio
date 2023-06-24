@@ -1,7 +1,7 @@
 import igniteCover from "../../../public/ignite_cover.png";
 import igniteTwo from "../../../public/ignite_02.png";
 import reactIcon from "../../../public/react.svg";
-// import getxLogo from "../../../public/getx_logo.png";
+import getxLogo from "../../../public/getx_logo.png";
 
 export const juniorDevProjectList = [
   {
@@ -13,11 +13,11 @@ export const juniorDevProjectList = [
       'The project aims to bring people together in their community to identify and solve daily problems that may affect our lives. Still, because we are always busy and occupied, we need help to change our neighborhood. In those moments, one might wonder, "How can I make MY CITY better, more efficient, and more FUN?"\n' +
       "Teenagers and young adults have the potential to be the most influential participants in this project. Smartphones, mobile applications, and technology are already essential to their daily lives. MyFunCity is a wordplay that is easy to remember and repeat, and it also explains our goal with that application and will undoubtedly connect with our target audience.\n",
     features: [
-      "Sign in and register",
-      "General survey",
-      "Various themes and questions",
-      "Search different answers" + " from different places",
-      "Read the reviews",
+      "Firebase User Authentication allows users to securely sign in using their email credentials.",
+      "Data Collection: The project would utilize Firebase Firestore, a NoSQL document database.",
+      "Navigation: Version 1.0 of the Flutter framework. This would allow users to navigate between different sections or features of the application seamlessly.",
+      "Bottom Navigation Bar: Customized bottom navigation bar, providing easy access to critical sections or functionalities within the app.",
+      "Customized App Bar: Customized using the Preferred Size widget. This would allow for a visually appealing and consistent design across different screens and provide a cohesive user experience.",
     ],
     techStack: [
       "/assets/project_images/icons_images/flutter.png",
@@ -26,6 +26,7 @@ export const juniorDevProjectList = [
       "/assets/project_images/icons_images/vscode.png",
     ],
     images: [
+      "/assets/project_images/myFunCity/image_cover.png",
       "/assets/project_images/myFunCity/image_1.png",
       "/assets/project_images/myFunCity/image_2.png",
       "/assets/project_images/myFunCity/image_3.png",
@@ -41,13 +42,21 @@ export const juniorDevProjectList = [
       "The homepage of the music player layout exhibits a Neumorphic design. This application is currently under development.",
     ideaDescription:
       "I'm currently working on a Flutter-based mobile app with a minimalist design, incorporating neomorphic elements. As a junior developer, I find certain aspects of the development process, such as modules, dependency injection, and serialization, quite challenging. However, with the help of GetX, which has been a fantastic experience, I am able to navigate through these complexities. GetX has been instrumental in managing modules, dependency injection, serialization, and many other aspects of my project. Additionally, I'm also exploring the use of the HTTP package to fetch data from an API that I created, allowing me to simulate real-world scenarios. While the pages of my app are still taking shape, each time I work on the project, it feels like diving into a new chapter of a book. This app serves as a valuable practice exercise, and I'm thrilled to be using GetX as the main package in my development journey.",
-    features: ["List of music", "Favorites", "Music Display"],
+    features: [
+      "Backend API Integration: Integrate backend APIs to fetch data from external sources.",
+      "GetX as State Management to efficiently manage and organize the app state. The package offers reactive programming capabilities, making it easier to handle state changes and update the UI.",
+      "Modular Architecture to Implement the app features using a modular architecture provided by GetX. This promotes code reusability and separation of concerns.",
+      "Dependency Injection to handle the instantiation and management of dependencies within your app. This simplifies the process of managing dependencies and facilitates code organization.",
+      "Favourites page that will allows users to mark and save their preferred content or data.",
+      "Integrate Audio player package into the app to enable users to play audio files that will be provides by the Api.",
+    ],
     techStack: [
-      "/assets/project_images/icons_images/dart.svg",
       "/assets/project_images/icons_images/flutter.png",
-      "/assets/project_images/icons_images/vscode.png",
+      "/assets/project_images/icons_images/dart.svg",
+      "/getx_logo.png",
     ],
     images: [
+      "/assets/project_images/music_player/player_cover.png",
       "/assets/project_images/music_player/player_mockup1.png",
       "/assets/project_images/music_player/player_mockup2.png",
     ],
@@ -76,6 +85,7 @@ export const juniorDevProjectList = [
       "/assets/project_images/icons_images/hive.png",
     ],
     images: [
+      "/assets/project_images/todo/todo_cover.png",
       "/assets/project_images/todo/todo.mockup2.png",
       "/assets/project_images/todo/todo.mockup.png",
     ],
@@ -89,11 +99,21 @@ export const juniorDevProjectList = [
     title: "Music player",
     description:
       "An Elegant music player, that combines React Js, Props, Static Files and so on.",
-    ideaDescription: "No description yet",
-    features: ["React Js", "Multiple packages", "Music controllers"],
-    techStack: ["/assets/project_images/icons_images/vite.svg", reactIcon],
+    ideaDescription:
+      "Introducing Waves Music App, your charming companion for musical bliss. Waves is not just your ordinary music player; it's a delightful web app that creates an enchanting atmosphere for your listening pleasure. Unleash the power of Chillhop as Waves taps into a curated collection of soothing tunes that will transport you to tranquillity and inspiration. From laid-back beats to soul-stirring melodies, this app serves as your gateway to the mesmerizing world of Chillhop music",
+    features: [
+      "User-friendly Interface: The app should have a visually appealing and intuitive interface for a smooth user experience.",
+      "Music Playback Controls: Include play/pause buttons that allow users to start or pause the currently playing music.",
+      "Fontawesome Icons used to complete the layout.",
+      "Ability to switch between different songs in the playlist. This can be done through previous/following track buttons.",
+      "Display a progress bar that indicates the current position of the playing song and allows users to seek within the track.",
+      "Drawer for Music List: Create a drawer or sidebar that displays the list of songs in the playlist. Users can view and select songs from this list.",
+      "Using the dependency useRef to reach the audio in the object list, and to be able to pass on the audio HTML tag.",
+    ],
+    techStack: [reactIcon, "/icons/font_awesome_logo.png"],
 
     images: [
+      "/react_cover.png",
       "/react_musicplayer_01.png",
       "/react_musicplayer_02.png",
       "/react_musicplayer_03.png",
@@ -101,8 +121,9 @@ export const juniorDevProjectList = [
 
     projectIcon:
       "/assets/project_images/icons_images/logo-vercel-svgrepo-com.svg",
+
     linkTitle: "See the project. Tell me what you think!",
-    link: "#",
+    link: "https://vercel.com/wladimirfilho/music-player-react",
   },
   {
     id: 5,
@@ -114,7 +135,7 @@ export const juniorDevProjectList = [
     features: ["Vite", "React Js", "Multiple packages", "Adding new posts"],
     techStack: ["/assets/project_images/icons_images/vite.svg", reactIcon],
 
-    images: ["/ignite_cover.png"],
+    images: ["/ignite_cover.png", "/ignite_01.png", "/ignite_02.png"],
 
     projectIcon:
       "/assets/project_images/icons_images/logo-vercel-svgrepo-com.svg",

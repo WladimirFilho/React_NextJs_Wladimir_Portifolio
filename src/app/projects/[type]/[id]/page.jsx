@@ -25,7 +25,7 @@ const Project = ({ params }) => {
   }
 
   return (
-    <div className="w-full lg:mt-32">
+    <div className="w-full lg:mt-16">
       <button
         onClick={() => {
           router.back();

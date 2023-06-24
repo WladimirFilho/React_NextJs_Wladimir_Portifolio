@@ -1,27 +1,50 @@
-'use client'
+"use client";
 
 import Link from "next/link";
-import {usePathname} from "next/navigation";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
+import { juniorDevProjectList } from "../app/data/projectsList";
 
 export const Navbar = () => {
+  const path = usePathname();
 
-	const path = usePathname();
+  return (
+    <header className="max-w-[1640px] mx-auto p-8 flex flex-col items-center lg:flex-row">
+      <nav className="flex-1 w-full font-medium">
+        <ul className="w-full flex justify-between items-center lg:gap-20 gap-8">
+          <div>
+            <li className="mb-10 lg:mb-0 font-bold ">
+              <Link className="text-xl" href="/">
+                .wladimir
+              </Link>
+            </li>
+          </div>
 
-	return (
-		<header className='max-w-[1440px] mx-auto p-8 flex flex-col items-center lg:flex-row justify-center'>
-			<h1 className='mb-10 lg:mb-0 font-bold lg:absolute lg:left-10'><Link href='/'>.wladimir</Link></h1>
-			<nav className='flex-1 w-full font-medium'>
-				<ul className='w-full flex justify-center lg:gap-20 gap-8'>
-					<li className='hover:text-yellow-500 hover:font-semibold'><Link href='/projects'><span
-						className={path.includes('/projects') ? 'text-yellow-500' : null}>projects</span></Link>
-					</li>
-					<li className='hover:text-yellow-500 hover:font-semibold'><Link href='/about'><span
-						className={path.includes('/about') ? 'text-yellow-500' : null}>about me</span></Link>
-					</li>
-					<li className='hover:text-yellow-500 hover:font-semibold'><Link href='/contact'><span
-						className={path.includes('/contact') ? 'text-yellow-500' : null}>contact</span></Link></li>
-				</ul>
-			</nav>
-		</header>
-	)
-}
+          <div className="flex gap-8">
+            <li className="py-2 px-6 border-yellow-400 border-solid hover:border-b-2">
+              <Link href="/about">
+                <span
+                  className={path.includes("/about") ? "text-yellow-500" : null}
+                >
+                  Resume
+                </span>
+              </Link>
+            </li>
+
+            <li className="py-2 px-6 border-yellow-400 border-solid hover:border-b-2">
+              <Link href="/contact">
+                <span
+                  className={
+                    path.includes("/contact") ? "text-yellow-500" : null
+                  }
+                >
+                  Get In touch
+                </span>
+              </Link>
+            </li>
+          </div>
+        </ul>
+      </nav>
+    </header>
+  );
+};
