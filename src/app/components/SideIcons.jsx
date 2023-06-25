@@ -1,5 +1,11 @@
 import Link from "next/link";
 import React from "react";
+import {
+  AiFillGithub,
+  AiFillLinkedin,
+  BsBehance,
+  MdOutlinePictureAsPdf,
+} from "react-icons/ai";
 
 const SideIcons = () => {
   return (
