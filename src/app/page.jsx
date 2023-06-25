@@ -1,12 +1,3 @@
-import { AnimatedText } from "../components/AnimatedText";
-import SideIcons from "./components/SideIcons";
-import {
-  AiFillGithub,
-  AiFillLinkedin,
-  BsBehance,
-  MdOutlinePictureAsPdf,
-} from "react-icons/all";
-import Link from "next/link";
 import Projects from "./projects/page";
 
 export default function Home() {
