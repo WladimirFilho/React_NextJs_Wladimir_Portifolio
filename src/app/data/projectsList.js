@@ -135,7 +135,26 @@ export const juniorDevProjectList = [
     features: ["Vite", "React Js", "Multiple packages", "Adding new posts"],
     techStack: ["/assets/project_images/icons_images/vite.svg", reactIcon],
 
-    images: ["/ignite_cover.png", "/ignite_01.png", "/ignite_02.png"],
+    images: ["/ignite_cover_1.png", "/ignite_cover.png", "/ignite_02.png"],
+
+    projectIcon:
+      "/assets/project_images/icons_images/logo-vercel-svgrepo-com.svg",
+    linkTitle: "See the project. Tell me what you think!",
+    link: "https://ignite-project-5tqf6clg8-wladimirfilho.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "Online Todo List",
+    description: "",
+    ideaDescription: "",
+    features: [""],
+    techStack: [
+      "/icons/html-5-logo-svgrepo-com.png",
+      "/icons/css-3-svgrepo-com.png",
+      "/icons/javascript-svgrepo-com.png",
+    ],
+
+    images: ["/todo_cover.png"],
 
     projectIcon:
       "/assets/project_images/icons_images/logo-vercel-svgrepo-com.svg",
