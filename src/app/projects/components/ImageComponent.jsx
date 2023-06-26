@@ -15,6 +15,14 @@ export const ImageComponent = ({ project }) => {
           priority
         />
       ))}
+
+      {project.video === "" ? null : (
+        <>
+          <video width="950" height="500" controls>
+            <source src={project.video} type="video/mp4" />
+          </video>
+        </>
+      )}
     </div>
   );
 };

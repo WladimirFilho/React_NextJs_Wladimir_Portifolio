@@ -28,12 +28,13 @@ export const juniorDevProjectList = [
     images: [
       "/assets/project_images/myFunCity/image_cover.png",
       "/assets/project_images/myFunCity/image_1.png",
-      "/assets/project_images/myFunCity/image_2.png",
+
       "/assets/project_images/myFunCity/image_3.png",
     ],
     projectIcon: "/icons/git.svg",
     linkTitle: "See the code. Tell me what you think!",
     link: "https://github.com/WladimirFilho/MyFunCity.git",
+    video: "/assets/project_images/myFunCity/myfuncity.mp4",
   },
   {
     id: 2,
@@ -63,6 +64,7 @@ export const juniorDevProjectList = [
     projectIcon: "/icons/git.svg",
     linkTitle: "See the code. Tell me what you think!",
     link: "https://github.com/WladimirFilho/music_player_neumorphic_flutter.git",
+    video: "https://www.youtube.com/watch?v=I4Y9W3QpeNc",
   },
   {
     id: 3,
@@ -86,12 +88,12 @@ export const juniorDevProjectList = [
     ],
     images: [
       "/assets/project_images/todo/todo_cover.png",
-      "/assets/project_images/todo/todo.mockup2.png",
       "/assets/project_images/todo/todo.mockup.png",
     ],
     projectIcon: "/icons/git.svg",
     linkTitle: "See the code. Tell me what you think!",
     link: "https://github.com/WladimirFilho/Flutter-TodoList.git",
+    video: "/assets/project_images/todo/todo_video_1.mp4",
   },
 
   {
@@ -124,6 +126,7 @@ export const juniorDevProjectList = [
 
     linkTitle: "See the project. Tell me what you think!",
     link: "https://vercel.com/wladimirfilho/music-player-react",
+    video: "",
   },
   {
     id: 5,
@@ -141,6 +144,7 @@ export const juniorDevProjectList = [
       "/assets/project_images/icons_images/logo-vercel-svgrepo-com.svg",
     linkTitle: "See the project. Tell me what you think!",
     link: "https://ignite-project-5tqf6clg8-wladimirfilho.vercel.app/",
+    video: "",
   },
   {
     id: 6,
@@ -160,6 +164,23 @@ export const juniorDevProjectList = [
       "/assets/project_images/icons_images/logo-vercel-svgrepo-com.svg",
     linkTitle: "See the project. Tell me what you think!",
     link: "https://ignite-project-5tqf6clg8-wladimirfilho.vercel.app/",
+    video: "",
+  },
+  {
+    id: 7,
+    title: "Instagram",
+    description: "",
+    ideaDescription: "",
+    features: [""],
+    techStack: ["/assets/project_images/icons_images/flutter.png"],
+
+    images: ["/todo_cover.png"],
+
+    projectIcon:
+      "/assets/project_images/icons_images/logo-vercel-svgrepo-com.svg",
+    linkTitle: "See the project. Tell me what you think!",
+    link: "https://ignite-project-5tqf6clg8-wladimirfilho.vercel.app/",
+    video: "/assets/project_images/instagram /instagram_cover.mp4",
   },
 ];
 
