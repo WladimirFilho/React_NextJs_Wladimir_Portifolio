@@ -43,17 +43,33 @@ export const DevJobDescriptionComponent = ({ project }) => {
           {/* Features */}
           <h2 className="mt-16 text-2xl font-semibold">{project.linkTitle}</h2>
 
-          <Link href={project.link}>
-            <Image
-              priority
-              unoptimized={true}
-              className="mt-8"
-              src={project.projectIcon}
-              width={50}
-              height={50}
-              alt="link to project"
-            />
-          </Link>
+          <div className="flex gap-8">
+            {project.linkVercel === "" ? null : (
+              <Link href={project.linkVercel}>
+                <Image
+                  priority
+                  unoptimized={true}
+                  className="mt-8"
+                  src={project.projectIconVercel}
+                  width={50}
+                  height={50}
+                  alt="link to project"
+                />
+              </Link>
+            )}
+
+            <Link href={project.linkGit}>
+              <Image
+                priority
+                unoptimized={true}
+                className="mt-8"
+                src={project.projectIconGit}
+                width={50}
+                height={50}
+                alt="link to project"
+              />
+            </Link>
+          </div>
         </div>
       </div>
     </>

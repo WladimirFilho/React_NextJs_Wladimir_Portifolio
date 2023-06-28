@@ -4,6 +4,7 @@ import reactIcon from "../../../public/react.svg";
 import getxLogo from "../../../public/getx_logo.png";
 
 export const juniorDevProjectList = [
+  // my fun city
   {
     id: 1,
     title: "My Fun City",
@@ -31,16 +32,54 @@ export const juniorDevProjectList = [
 
       "/assets/project_images/myFunCity/image_3.png",
     ],
-    projectIcon: "/icons/git.svg",
-    linkTitle: "See the code. Tell me what you think!",
-    link: "https://github.com/WladimirFilho/MyFunCity.git",
     video: "/assets/project_images/myFunCity/myfuncity.mp4",
+    linkTitle: "See the project. Tell me what you think!",
+    projectIconVercel: "",
+    linkVercel: "",
+    linkGit: "https://github.com/WladimirFilho/Flutter-MyFunCity",
+    projectIconGit: "/icons/git.svg",
   },
+
+  // react music player
+  {
+    id: 4,
+    title: "Wave Player",
+    description:
+      "An Elegant music player, that combines React Js, Props, Static Files and so on.",
+    ideaDescription:
+      "Introducing Waves Music App, your charming companion for musical bliss. Waves is not just your ordinary music player; it's a delightful web app that creates an enchanting atmosphere for your listening pleasure. Unleash the power of Chillhop as Waves taps into a curated collection of soothing tunes that will transport you to tranquillity and inspiration. From laid-back beats to soul-stirring melodies, this app serves as your gateway to the mesmerizing world of Chillhop music",
+    features: [
+      "User-friendly Interface: The app should have a visually appealing and intuitive interface for a smooth user experience.",
+      "Music Playback Controls: Include play/pause buttons that allow users to start or pause the currently playing music.",
+      "Font-awesome Icons used to complete the layout.",
+      "Ability to switch between different songs in the playlist. This can be done through previous/following track buttons.",
+      "Display a progress bar that indicates the current position of the playing song and allows users to seek within the track.",
+      "Drawer for Music List: Create a drawer or sidebar that displays the list of songs in the playlist. Users can view and select songs from this list.",
+      "Using the dependency useRef to reach the audio in the object list, and to be able to pass on the audio HTML tag.",
+    ],
+    techStack: [reactIcon, "/icons/font_awesome_logo.png"],
+
+    images: [
+      "/react_cover.png",
+      "/react_musicplayer_03.png",
+      "/react_musicplayer_01.png",
+    ],
+
+    video: "",
+    linkTitle: "See the project. Tell me what you think!",
+    projectIconVercel:
+      "/assets/project_images/icons_images/logo-vercel-svgrepo-com.svg",
+    linkVercel:
+      "https://music-player-react-o38e6llek-wladimirfilho.vercel.app/",
+    linkGit: "https://github.com/WladimirFilho/React-Waves-MusicPlayer",
+    projectIconGit: "/icons/git.svg",
+  },
+
+  // Flutter Music Player App
   {
     id: 2,
     title: "Music Player",
-    description:
-      "The homepage of the music player layout exhibits a Neumorphic design. This application is currently under development.",
+    description: "",
     ideaDescription:
       "I'm currently working on a Flutter-based mobile app with a minimalist design, incorporating neomorphic elements. As a junior developer, I find certain aspects of the development process, such as modules, dependency injection, and serialization, quite challenging. However, with the help of GetX, which has been a fantastic experience, I am able to navigate through these complexities. GetX has been instrumental in managing modules, dependency injection, serialization, and many other aspects of my project. Additionally, I'm also exploring the use of the HTTP package to fetch data from an API that I created, allowing me to simulate real-world scenarios. While the pages of my app are still taking shape, each time I work on the project, it feels like diving into a new chapter of a book. This app serves as a valuable practice exercise, and I'm thrilled to be using GetX as the main package in my development journey.",
     features: [
@@ -61,73 +100,16 @@ export const juniorDevProjectList = [
       "/assets/project_images/music_player/player_mockup1.png",
       "/assets/project_images/music_player/player_mockup2.png",
     ],
-    projectIcon: "/icons/git.svg",
-    linkTitle: "See the code. Tell me what you think!",
-    link: "https://github.com/WladimirFilho/music_player_neumorphic_flutter.git",
-    video: "https://www.youtube.com/watch?v=I4Y9W3QpeNc",
-  },
-  {
-    id: 3,
-    title: "Todo List",
-    description:
-      "A simple Todo list. Internat Storage using Hive as dependency",
-    ideaDescription:
-      "This is a minimalistic idea for a Flutter-based mobile app featuring a neomorphic design." +
-      " The project is currently in the development stage and serves as a practice exercise.",
-    features: [
-      "New notes",
-      "CheckBox for conclude task",
-      "Delete notes using the slider",
-      "Hive as local storage",
-    ],
-    techStack: [
-      "/assets/project_images/icons_images/dart.svg",
-      "/assets/project_images/icons_images/flutter.png",
-      "/assets/project_images/icons_images/vscode.png",
-      "/assets/project_images/icons_images/hive.png",
-    ],
-    images: [
-      "/assets/project_images/todo/todo_cover.png",
-      "/assets/project_images/todo/todo.mockup.png",
-    ],
-    projectIcon: "/icons/git.svg",
-    linkTitle: "See the code. Tell me what you think!",
-    link: "https://github.com/WladimirFilho/Flutter-TodoList.git",
-    video: "/assets/project_images/todo/todo_video_1.mp4",
-  },
-
-  {
-    id: 4,
-    title: "Music player",
-    description:
-      "An Elegant music player, that combines React Js, Props, Static Files and so on.",
-    ideaDescription:
-      "Introducing Waves Music App, your charming companion for musical bliss. Waves is not just your ordinary music player; it's a delightful web app that creates an enchanting atmosphere for your listening pleasure. Unleash the power of Chillhop as Waves taps into a curated collection of soothing tunes that will transport you to tranquillity and inspiration. From laid-back beats to soul-stirring melodies, this app serves as your gateway to the mesmerizing world of Chillhop music",
-    features: [
-      "User-friendly Interface: The app should have a visually appealing and intuitive interface for a smooth user experience.",
-      "Music Playback Controls: Include play/pause buttons that allow users to start or pause the currently playing music.",
-      "Fontawesome Icons used to complete the layout.",
-      "Ability to switch between different songs in the playlist. This can be done through previous/following track buttons.",
-      "Display a progress bar that indicates the current position of the playing song and allows users to seek within the track.",
-      "Drawer for Music List: Create a drawer or sidebar that displays the list of songs in the playlist. Users can view and select songs from this list.",
-      "Using the dependency useRef to reach the audio in the object list, and to be able to pass on the audio HTML tag.",
-    ],
-    techStack: [reactIcon, "/icons/font_awesome_logo.png"],
-
-    images: [
-      "/react_cover.png",
-      "/react_musicplayer_01.png",
-      "/react_musicplayer_02.png",
-      "/react_musicplayer_03.png",
-    ],
-
-    projectIcon:
-      "/assets/project_images/icons_images/logo-vercel-svgrepo-com.svg",
-
-    linkTitle: "See the project. Tell me what you think!",
-    link: "https://vercel.com/wladimirfilho/music-player-react",
     video: "",
+    linkTitle: "See the project. Tell me what you think!",
+    projectIconVercel: "",
+    linkVercel: "",
+    linkGit:
+      "https://github.com/WladimirFilho/music_player_neumorphic_flutter.git",
+    projectIconGit: "/icons/git.svg",
   },
+
+  // Ignite Blog
   {
     id: 5,
     title: "Ignite Blog",
@@ -144,60 +126,139 @@ export const juniorDevProjectList = [
       "/assets/project_images/icons_images/logo-vercel-svgrepo-com.svg",
     linkTitle: "See the project. Tell me what you think!",
     link: "https://ignite-project-5tqf6clg8-wladimirfilho.vercel.app/",
+
     video: "",
+    linkTitle: "See the project. Tell me what you think!",
+    projectIconVercel:
+      "/assets/project_images/icons_images/logo-vercel-svgrepo-com.svg",
+    linkVercel: "https://ignite-project-5tqf6clg8-wladimirfilho.vercel.app/",
+    linkGit: "https://github.com/WladimirFilho/React_Vite_IgniteBlog",
+    projectIconGit: "/icons/git.svg",
   },
+
+  // To-do List Flutter
+  {
+    id: 3,
+    title: "To-do List",
+    description: "",
+    ideaDescription:
+      "This is a minimalistic idea for a Flutter-based mobile app featuring a simple design with a UX/UI experience. The app aims to provide a simple to-do list with features for creating new notes, marking tasks as completed, and deleting notes. The usage of Hive ensures that the app can store and retrieve data locally on the user's device.",
+    features: [
+      "New notes: Users can create and add new notes to the app. This feature allows users to input text and save it as a new note.",
+
+      "CheckBox for concluding tasks: Each note or task in the app has a checkbox associated with it. Users can mark the checkbox to indicate that a particular task has been concluded or completed.",
+
+      "Delete notes using the slider: The app includes a slider or swipe gesture that allows users to delete notes. By swiping on a note, users can delete it from the app.",
+
+      "Hive as local storage: The app utilizes Hive as a dependency for local storage. Hive is a lightweight and efficient NoSQL database solution for Flutter, enabling you to store and retrieve data on the device.",
+    ],
+    techStack: [
+      "/assets/project_images/icons_images/dart.svg",
+      "/assets/project_images/icons_images/flutter.png",
+      "/assets/project_images/icons_images/vscode.png",
+      "/assets/project_images/icons_images/hive.png",
+    ],
+    images: [
+      "/assets/project_images/todo/todo_cover.png",
+      "/assets/project_images/todo/todo.mockup.png",
+    ],
+    video: "/assets/project_images/todo/todo_video_1.mp4",
+    linkTitle: "See the project. Tell me what you think!",
+    projectIconVercel: "",
+    linkVercel: "",
+    linkGit: "https://github.com/WladimirFilho/Flutter-TodoList.git",
+    projectIconGit: "/icons/git.svg",
+  },
+
+  // To-do Java Web App
   {
     id: 6,
-    title: "Online Todo List",
+    title: "Web - Todo List",
     description: "",
-    ideaDescription: "",
-    features: [""],
+    ideaDescription:
+      "The web app you developed is a simple note-taking application built using JavaScript (vanilla), HTML, and CSS. It provides users with a convenient way to create and manage their notes. The app leverages local web storage, allowing users to retain their notes even after reloading the webpage. With its minimalist design and user-friendly interface, this app offers a seamless note-taking experience.",
+    features: [
+      "New notes can easily create new notes by inputting text into the app. The interface provides a space to enter and save the contents of each note.",
+      "Check complete notes clicking the checkbox, allowing users to mark notes as completed or finished. This feature helps users keep track of their tasks and quickly identify which notes have been addressed.",
+      "Delete single notes if users no longer need a particular note. They can delete it individually.",
+      "Delete all notes is also an option. Besides deleting individual notes, the app provides a feature to delete all notes simultaneously.",
+      "Local web storage. The app utilizes local web storage to store the notes locally on the user's computer. This means that even if the webpage is reloaded or the browser is closed and reopened, the notes will persist, ensuring that users don't lose their data.",
+    ],
     techStack: [
       "/icons/html-5-logo-svgrepo-com.png",
       "/icons/css-3-svgrepo-com.png",
       "/icons/javascript-svgrepo-com.png",
     ],
 
-    images: ["/todo_cover.png"],
+    images: ["/todo_web_javascript_cover.png", "/todo_cover.png"],
 
     projectIcon:
       "/assets/project_images/icons_images/logo-vercel-svgrepo-com.svg",
     linkTitle: "See the project. Tell me what you think!",
     link: "https://ignite-project-5tqf6clg8-wladimirfilho.vercel.app/",
+
     video: "",
+    linkTitle: "See the project. Tell me what you think!",
+    projectIconVercel:
+      "/assets/project_images/icons_images/logo-vercel-svgrepo-com.svg",
+    linkVercel: "https://javascript-todo-list-psi.vercel.app/",
+    linkGit: "https://github.com/WladimirFilho/HTML-CSS-JavaScript-todo-list",
+    projectIconGit: "/icons/git.svg",
   },
+
+  // Flutter Instagram
   {
     id: 7,
-    title: "Instagram",
+    title: "Instagram UI Clone",
     description: "",
-    ideaDescription: "",
-    features: [""],
+    ideaDescription:
+      "A well know mobile app such as the instagram app come as an amazing exercise to work with the Flutter UI possibilities. Building this project was a pleasure",
+    features: [
+      "Bubble stories: When you click in the bubbles, that takes you to the story page. That page has a Clickable onPress for each side of the screen. That allows the user to navigate forwards or backwards on each story post.",
+      "Feed Reel: The widgets have an encapsulated code that allows implementation of a possible dynamic database in the future.",
+      "TikTok ¬Post: The video section also has a navigability option to swipe up and down.",
+      "Favorites: Heart button on TikTok post.",
+    ],
     techStack: ["/assets/project_images/icons_images/flutter.png"],
 
-    images: ["/todo_cover.png"],
+    images: [
+      "/assets/project_images/instagram /instagram_03.png",
+      "/assets/project_images/instagram /instagram_01.png",
+      "/assets/project_images/instagram /intagram_01.png",
+    ],
 
     projectIcon:
       "/assets/project_images/icons_images/logo-vercel-svgrepo-com.svg",
     linkTitle: "See the project. Tell me what you think!",
     link: "https://ignite-project-5tqf6clg8-wladimirfilho.vercel.app/",
+
     video: "/assets/project_images/instagram /instagram_cover.mp4",
+    linkTitle: "See the project. Tell me what you think!",
+    projectIconVercel: "",
+    linkVercel: "",
+    linkGit: "https://github.com/WladimirFilho/Flutter-Instagram-Clone-UI",
+    projectIconGit: "/icons/git.svg",
   },
 ];
 
 ////////////////////////////////////////////////////////////////////////
 
 export const designerProjectList = [
+  // BR Mania
   {
     id: 1,
     title: "BR Mania, Service station",
-    description:
-      "- BR Mania, one of the largest 24-hour petrol station networks in Brazil, launched a campaign with" +
-      ' the slogan "Everyone meets inside BR Mania." The campaign was inspired by the concept that all aspects of an individual\'s personality can converge within the various locations of BR Mania throughout the day.',
+    description: "",
     ideaDescription:
-      "- The central idea behind the campaign revolved around the notion that BR Mania serves as more" +
-      " than just a petrol station. It is a bustling hub where different aspects of a person's character and preferences seamlessly come together. Whether it's the early risers stopping by for a fresh cup of coffee, professionals catching a quick snack during their lunch break, or night owls fueling up for their late-night adventures, BR Mania caters to the diverse needs and moods of its customers at any hour. The campaign sought to capture the essence of this dynamic environment through creative visuals, captivating slogans, and relatable narratives. Each advertisement showcased various characters representing different personality traits, demonstrating how BR Mania accommodates everyone within its welcoming atmosphere. From the energetic and ambitious to the laid-back and contemplative, the campaign emphasized that every individual can find a place to connect and feel at home inside BR Mania.",
+      "BR Mania, one of the largest 24-hour petrol station networks in Brazil, launched a campaign with the slogan - Everyone meets inside BR Mania -.  The campaign was inspired by the concept that all aspects of an individual's personality can converge within the various locations of BR Mania throughout the day. The central idea behind the campaign revolved around the notion that BR Mania serves as more than just a petrol station. Whether it is the early risers stopping by for a fresh cup of coffee, professionals catching a quick snack during their lunch break, or night owls fueling up for their late-night adventures, BR Mania caters to the diverse needs and moods of its customers at any hour.",
 
-    features: [],
+    features: [
+      "Designing and Brainstorm",
+      "Art Direction planning",
+      "Photoshop Image composing",
+      "Illustrator Design and vector manipulation",
+      "Indesign layouts",
+    ],
     techStack: [
       "/assets/project_images/icons_images/ai.png",
       "/assets/project_images/icons_images/ps.png",
@@ -207,10 +268,16 @@ export const designerProjectList = [
       "/assets/project_images/br_mania/1.png",
       "/assets/project_images/br_mania/2.jpg",
     ],
-    projectIcon: "/icons/behance.svg",
-    linkTitle: "See the project on behance",
-    link: "https://www.behance.net/gallery/66127745/BR-Mania",
+
+    video: "",
+    linkTitle: "See the project on behance.",
+    projectIconVercel: "",
+    linkVercel: "",
+    linkGit: "https://www.behance.net/gallery/66127745/BR-Mania",
+    projectIconGit: "/icons/behance.svg",
   },
+
+  // It is Painting a New subway
   {
     id: 2,
     title: "It is Painting a New subway",
@@ -220,7 +287,13 @@ export const designerProjectList = [
     ideaDescription:
       "The call for participation invites individuals to submit their creative graphic proposals for" +
       " the purpose of painting the new carriages. A distinguished committee, consisting of acclaimed artists well-versed in the field, will meticulously assess the submissions. Out of the pool of imaginative ideas, the committee will carefully select a standout concept that demonstrates exceptional artistic merit and aligns with the vision of the project. The chosen proposal will not only be rewarded with a prestigious prize but also enjoy substantial exposure that extends far beyond traditional advertising channels. The commendable work will naturally generate buzz and enthusiasm through word-of-mouth, igniting conversations among art enthusiasts, commuters, and the general public. This organic, grassroots promotion will serve as a testament to the brilliance of the selected idea, fostering intrigue and anticipation for the forthcoming implementation of the artwork on the new carriages.",
-    features: [],
+    features: [
+      "Designing and Brainstorm",
+      "Art Direction planning",
+      "Photoshop Image composing",
+      "Illustrator Design and vector manipulation",
+      "Indesign layouts",
+    ],
     techStack: [
       "/assets/project_images/icons_images/ai.png",
       "/assets/project_images/icons_images/ps.png",
@@ -232,13 +305,20 @@ export const designerProjectList = [
       "/assets/project_images/metro/3.png",
       "/assets/project_images/metro/4.png",
     ],
-    projectIcon: "/icons/behance.svg",
-    linkTitle: "See the project on behance",
-    link: "https://www.behance.net/gallery/65979183/It-is-panting-a-new-subway-Ta-pintando-um-novo-metro",
+
+    video: "",
+    linkTitle: "See the project on behance.",
+    projectIconVercel: "",
+    linkVercel: "",
+    linkGit:
+      "https://www.behance.net/gallery/65979183/It-is-panting-a-new-subway-Ta-pintando-um-novo-metro",
+    projectIconGit: "/icons/behance.svg",
   },
+
+  // Santa Rita
   {
     id: 3,
-    title: "Santa Rita Movies",
+    title: "Santa Rita Movies Production",
     description:
       "The design project entails creating a comprehensive stationary pack, which encompasses various elements such as a logo guideline, business card, brochure, and more.",
     ideaDescription:
@@ -246,7 +326,13 @@ export const designerProjectList = [
       " of essential branding materials. These materials not only establish a consistent visual identity but also" +
       " serve as powerful marketing tools for businesses. The pack typically includes a variety of items, such as:" +
       " Logo Guideline, Business Card, Letterhead, Envelopes, Notepads, Email signatures, Product Brochures and more.",
-    features: [],
+    features: [
+      "Stationary production and printing",
+      "Art Direction",
+      "Photoshop Image composing",
+      "Illustrator Design and vector manipulation",
+      "Contact with printing companiesDelivery",
+    ],
     techStack: [
       "/assets/project_images/icons_images/ai.png",
       "/assets/project_images/icons_images/ps.png",
@@ -259,10 +345,15 @@ export const designerProjectList = [
       "/assets/project_images/santa_rita/4.png",
       "/assets/project_images/santa_rita/5.png",
     ],
-    projectIcon: "/icons/behance.svg",
-    linkTitle: "See the project on behance",
-    link: "https://www.behance.net/gallery/65991053/Business-stationery",
+    video: "",
+    linkTitle: "See the project on behance.",
+    projectIconVercel: "",
+    linkVercel: "",
+    linkGit: "https://www.behance.net/gallery/65991053/Business-stationery",
+    projectIconGit: "/icons/behance.svg",
   },
+
+  // Sao Paulo Country Parade
   {
     id: 4,
     title: "Sao Paulo Country Parade",
@@ -295,7 +386,16 @@ export const designerProjectList = [
     projectIcon: "/icons/behance.svg",
     linkTitle: "See the project on behance",
     link: "https://www.behance.net/gallery/65898065/Country-Party",
+
+    video: "",
+    linkTitle: "See the project on behance.",
+    projectIconVercel: "",
+    linkVercel: "",
+    linkGit: "https://www.behance.net/gallery/65898065/Country-Party",
+    projectIconGit: "/icons/behance.svg",
   },
+
+  // e-Club Vacation
   {
     id: 5,
     title: "e-Club Vacation care",
@@ -304,7 +404,14 @@ export const designerProjectList = [
     ideaDescription:
       "At e-Club, children can delve into a variety of subjects and topics, exploring a diverse range" +
       " of lessons that are designed to be engaging, age-appropriate, and aligned with educational standards. Through interactive multimedia content, intuitive learning tools, and personalized guidance, kids can absorb knowledge, develop new skills, and foster a love for learning. Moreover, e-Club recognizes the importance of a balanced approach to education and offers an array of stimulating activities and playtime opportunities. These activities are thoughtfully curated to be both educational and entertaining, promoting creativity, critical thinking, and social development. Whether it's engaging in virtual group projects, participating in interactive games, or exploring virtual worlds, children can embark on exciting adventures and build connections with their peers in a safe and supervised online environment.",
-    features: [],
+    features: [
+      "Web page design",
+      "Instagram post design",
+      "Art Direction",
+      "Photoshop Image composing",
+      "Illustrator Design and vector manipulation",
+      "Contact with printing companiesDelivery",
+    ],
     techStack: [
       "/assets/project_images/icons_images/ai.png",
       "/assets/project_images/icons_images/ps.png",
@@ -317,10 +424,15 @@ export const designerProjectList = [
       "/assets/project_images/e-club/05.png",
       "/assets/project_images/e-club/07.png",
     ],
-    projectIcon: "/icons/behance.svg",
-    linkTitle: "See the project on behance",
-    link: "https://www.behance.net/gallery/171685117/e-Club-vacation-care?",
+    video: "",
+    linkTitle: "See the project on behance.",
+    projectIconVercel: "",
+    linkVercel: "",
+    linkGit: "https://www.behance.net/gallery/171685117/e-Club-vacation-care?",
+    projectIconGit: "/icons/behance.svg",
   },
+
+  // Art on Site
   {
     id: 6,
     title: "Art on Site",
@@ -333,7 +445,13 @@ export const designerProjectList = [
       ' New Subway" campaign. It provides a unique platform for talented individuals to showcase their artistic' +
       " prowess and have their creative visions come to life in the city's train stations. By inviting participants" +
       " to submit their design ideas, Art on Site opens up a world of possibilities, transforming the protective barriers surrounding the new train stations into vibrant and visually striking artworks. The project serves as a celebration of artistic expression, bringing together artists, designers, and visionaries to contribute their unique perspectives to the urban landscape. Through this initiative, the train stations become not just functional spaces but also immersive artistic experiences, where commuters and passersby are greeted by captivating visuals that reflect the rich diversity and creative spirit of the community. The selection process is a testament to the campaign's commitment to excellence and innovation. A panel of esteemed judges carefully evaluates the submitted designs, considering their artistic merit, relevance to the campaign theme, and ability to engage and inspire viewers. The chosen designs will be awarded the prestigious opportunity to have their ideas transformed into stunning murals, adorning the protective barriers around the train stations. ",
-    features: [],
+    features: [
+      "Web page design",
+      "Art Direction",
+      "Photoshop Image composing",
+      "Illustrator Design and vector manipulation",
+      "Contact with printing companiesDelivery",
+    ],
     techStack: [
       "/assets/project_images/icons_images/ai.png",
       "/assets/project_images/icons_images/ps.png",
@@ -345,8 +463,12 @@ export const designerProjectList = [
       "/assets/project_images/art_na_obra/3.png",
       "/assets/project_images/art_na_obra/4.png",
     ],
-    projectIcon: "/icons/behance.svg",
-    linkTitle: "See the project on behance",
-    link: "https://www.behance.net/gallery/65932555/Arte-de-Obra-Art-at-the-site",
+    video: "",
+    linkTitle: "See the project on behance.",
+    projectIconVercel: "",
+    linkVercel: "",
+    linkGit:
+      "https://www.behance.net/gallery/65932555/Arte-de-Obra-Art-at-the-site",
+    projectIconGit: "/icons/behance.svg",
   },
 ];
