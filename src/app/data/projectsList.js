@@ -22,9 +22,8 @@ export const juniorDevProjectList = [
     ],
     techStack: [
       "/assets/project_images/icons_images/flutter.png",
+      "/assets/project_images/icons_images/dart.svg",
       "/assets/project_images/icons_images/firebase.png",
-      "/assets/project_images/icons_images/android_studio.png",
-      "/assets/project_images/icons_images/vscode.png",
     ],
     images: [
       "/assets/project_images/myFunCity/image_cover.png",
@@ -117,8 +116,12 @@ export const juniorDevProjectList = [
       "A Blog that shows posts and comments. Made using React Js, CSS Modules and Vite",
     ideaDescription:
       "That is another project that helps me improve my skills and align with my studying routine. This project can combine my knowledge of React JS, with an idea that can be used in the future for a real purpose. A shout-out to the guys from RocketSeat for the tutorials. This project is not even near to being finished yet. I still have a lot to implement.",
-    features: ["Vite", "React Js", "Multiple packages", "Adding new posts"],
-    techStack: ["/assets/project_images/icons_images/vite.svg", reactIcon],
+    features: [
+      "Vite offers an efficient development experience, enabling quick start-up times and instant hot module replacement during development. Vite optimizes the build process, resulting in a speedy and responsive web app.",
+      "React JS is a popular JavaScript library for building user interfaces. With its efficient rendering and virtual DOM, React JS enables the creation of highly interactive and dynamic web applications.",
+      "The app utilizes multiple packages. These packages provide additional functionality and features that enhance the development process.",
+    ],
+    techStack: [reactIcon, "/assets/project_images/icons_images/vite.svg"],
 
     images: ["/ignite_cover_1.png", "/ignite_cover.png", "/ignite_02.png"],
 
@@ -153,9 +156,8 @@ export const juniorDevProjectList = [
       "Hive as local storage: The app utilizes Hive as a dependency for local storage. Hive is a lightweight and efficient NoSQL database solution for Flutter, enabling you to store and retrieve data on the device.",
     ],
     techStack: [
-      "/assets/project_images/icons_images/dart.svg",
       "/assets/project_images/icons_images/flutter.png",
-      "/assets/project_images/icons_images/vscode.png",
+      "/assets/project_images/icons_images/dart.svg",
       "/assets/project_images/icons_images/hive.png",
     ],
     images: [
@@ -192,11 +194,6 @@ export const juniorDevProjectList = [
 
     images: ["/todo_web_javascript_cover.png", "/todo_cover.png"],
 
-    projectIcon:
-      "/assets/project_images/icons_images/logo-vercel-svgrepo-com.svg",
-    linkTitle: "See the project. Tell me what you think!",
-    link: "https://ignite-project-5tqf6clg8-wladimirfilho.vercel.app/",
-
     video: "",
     linkTitle: "See the project. Tell me what you think!",
     projectIconVercel:
@@ -219,7 +216,10 @@ export const juniorDevProjectList = [
       "TikTok ¬Post: The video section also has a navigability option to swipe up and down.",
       "Favorites: Heart button on TikTok post.",
     ],
-    techStack: ["/assets/project_images/icons_images/flutter.png"],
+    techStack: [
+      "/assets/project_images/icons_images/flutter.png",
+      "/assets/project_images/icons_images/dart.svg",
+    ],
 
     images: [
       "/assets/project_images/instagram /instagram_03.png",
@@ -227,16 +227,41 @@ export const juniorDevProjectList = [
       "/assets/project_images/instagram /intagram_01.png",
     ],
 
-    projectIcon:
-      "/assets/project_images/icons_images/logo-vercel-svgrepo-com.svg",
-    linkTitle: "See the project. Tell me what you think!",
-    link: "https://ignite-project-5tqf6clg8-wladimirfilho.vercel.app/",
-
     video: "/assets/project_images/instagram /instagram_cover.mp4",
     linkTitle: "See the project. Tell me what you think!",
     projectIconVercel: "",
     linkVercel: "",
     linkGit: "https://github.com/WladimirFilho/Flutter-Instagram-Clone-UI",
+    projectIconGit: "/icons/git.svg",
+  },
+
+  // Flutter Spontaneous
+  {
+    id: 8,
+    title: "Spontaneous",
+    description: "",
+    ideaDescription:
+      "Spontaneous is an application made using Flutter and revolves around fetching data from the Bored API. The API provides random activities to engage in individually and with friends. This app allows users to discover exciting and diverse activities to add fun and spontaneity to their lives. Leveraging connectivity plus, data notifier, API dio, and shared preferences, the app ensures seamless connectivity, real-time data updates, efficient API handling, and personalized user experiences.",
+    features: [
+      "Fetching random activities: The app fetches random activities from the Bored API, providing users with a wide range of options for things to do.",
+      "Individual and group activities: The app suggests activities that can be enjoyed individually or with friends.",
+      "Connectivity Plus: The app utilizes the connectivity plus package to monitor the network connectivity of the user's device. This ensures that the app can adapt its functionality based on the availability of an internet connection.",
+      "Real-time data updates: The app employs a data notifier mechanism to receive real-time updates from the Bored API. This allows users to access the latest activities and ensures the app's content remains fresh and engaging.",
+      "API handling with Dio: The app utilizes the Dio package for handling API requests and responses. Dio simplifies the HTTP request process, enabling efficient communication with the Bored API and smooth data retrieval.",
+      "Personalized user experience with shared preferences: The app utilizes shared preferences to store user preferences, such as favourite activities or preferred categories. This allows for a customised user experience, where the app can recommend activities tailored to the user's interests.",
+    ],
+    techStack: [
+      "/assets/project_images/icons_images/flutter.png",
+      "/assets/project_images/icons_images/dart.svg",
+    ],
+
+    images: ["/spontaneus_01.png", "/spontaneus_02.png"],
+
+    video: "/spontanaous_video.mp4",
+    linkTitle: "See the project. Tell me what you think!",
+    projectIconVercel: "",
+    linkVercel: "",
+    linkGit: "https://github.com/WladimirFilho/Flutter_Spontaneous_Bored_API",
     projectIconGit: "/icons/git.svg",
   },
 ];

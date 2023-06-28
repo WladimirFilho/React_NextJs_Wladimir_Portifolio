@@ -11,7 +11,7 @@ export const Navbar = () => {
   return (
     <header className="max-w-[1640px] mx-auto p-8 flex flex-col items-center lg:flex-row">
       <nav className="flex-1 w-full font-medium">
-        <ul className="w-full flex justify-between items-center lg:gap-20 gap-8">
+        <ul className="w-full flex lg:flex-row flex-col justify-between items-center lg:gap-20 gap-8">
           <div>
             <li className="mb-10 lg:mb-0 font-bold ">
               <Link className="text-xl" href="/">
@@ -26,7 +26,7 @@ export const Navbar = () => {
                 <span
                   className={path.includes("/about") ? "text-yellow-500" : null}
                 >
-                  Resume
+                  About me
                 </span>
               </Link>
             </li>
