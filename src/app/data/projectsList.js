@@ -264,6 +264,35 @@ export const juniorDevProjectList = [
     linkGit: "https://github.com/WladimirFilho/Flutter_Spontaneous_Bored_API",
     projectIconGit: "/icons/git.svg",
   },
+  {
+    id: 9,
+    title: "Memory Game",
+    description: "",
+    ideaDescription:
+      "The Rick and Morty Memory Card Game is an exciting and challenging browser-based game developed using HTML, CSS, and vanilla JavaScript. The game is inspired by the popular animated TV series, Rick and Morty, and is designed to test and enhance your JavaScript skills while providing an enjoyable gaming experience.",
+    features: [
+      "Responsive Design: The game adapts to different screen sizes, ensuring an enjoyable experience on both desktop and mobile devices.",
+      "Dynamic Grid shuffling: Every time the page reloads, a new order of cards is created",
+      "Time stamp: As the game starts, a clock starts to count how long you take to solve the puzzle",
+    ],
+    techStack: [
+      "/icons/html-5-logo-svgrepo-com.png",
+      "/icons/css-3-svgrepo-com.png",
+      "/icons/javascript-svgrepo-com.png",
+    ],
+
+    images: ["/rick_01.png", "/rick_03.png", "/rick_02.png"],
+
+    video: "",
+    linkTitle: "See the project. Tell me what you think!",
+    projectIconVercel:
+      "/assets/project_images/icons_images/logo-vercel-svgrepo-com.svg",
+    linkVercel:
+      "https://java-script-html-css-rick-and-morty-memory-game.vercel.app/",
+    linkGit:
+      "https://github.com/WladimirFilho/JavaScript_HTML_CSS_Rick_and_Morty_Memory_Game",
+    projectIconGit: "/icons/git.svg",
+  },
 ];
 
 ////////////////////////////////////////////////////////////////////////
