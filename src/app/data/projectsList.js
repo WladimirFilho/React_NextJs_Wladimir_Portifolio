@@ -186,11 +186,7 @@ export const juniorDevProjectList = [
       "Delete all notes is also an option. Besides deleting individual notes, the app provides a feature to delete all notes simultaneously.",
       "Local web storage. The app utilizes local web storage to store the notes locally on the user's computer. This means that even if the webpage is reloaded or the browser is closed and reopened, the notes will persist, ensuring that users don't lose their data.",
     ],
-    techStack: [
-      "/icons/html-5-logo-svgrepo-com.png",
-      "/icons/css-3-svgrepo-com.png",
-      "/icons/javascript-svgrepo-com.png",
-    ],
+    techStack: ["/html_icon.png", "/css_icon.png", "/js_icon.png"],
 
     images: ["/todo_web_javascript_cover.png", "/todo_cover.png"],
 
@@ -272,14 +268,10 @@ export const juniorDevProjectList = [
       "The Rick and Morty Memory Card Game is an exciting and challenging browser-based game developed using HTML, CSS, and vanilla JavaScript. The game is inspired by the popular animated TV series, Rick and Morty, and is designed to test and enhance your JavaScript skills while providing an enjoyable gaming experience.",
     features: [
       "Responsive Design: The game adapts to different screen sizes, ensuring an enjoyable experience on both desktop and mobile devices.",
-      "Dynamic Grid shuffling: Every time the page reloads, a new order of cards is created",
-      "Time stamp: As the game starts, a clock starts to count how long you take to solve the puzzle",
+      "Dynamic Grid shuffling: Every time the page reloads, a new order of cards is created.",
+      "Timestamp: As the game starts, a clock starts to count how long you take to solve the puzzle",
     ],
-    techStack: [
-      "/icons/html-5-logo-svgrepo-com.png",
-      "/icons/css-3-svgrepo-com.png",
-      "/icons/javascript-svgrepo-com.png",
-    ],
+    techStack: ["/html_icon.png", "/css_icon.png", "/js_icon.png"],
 
     images: ["/rick_01.png", "/rick_03.png", "/rick_02.png"],
 
