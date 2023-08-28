@@ -26,7 +26,8 @@ const Contact = () => {
           </span>
         </p>
         <p className=" text-2xl font-semibold ">
-          with a background in Graphic designer
+          with a{" "}
+          <span className=" text-yellow-500">Graphic design background.</span>
         </p>
         <div className="flex flex-col justify-between items-center h-full">
           <div className="flex flex-col gap-2 items-center mt-20">
@@ -34,18 +35,34 @@ const Contact = () => {
             <h3 className="font-semibold text-2xl">+61 449 162 083</h3>
           </div>
           <div className="flex gap-10 justify-center items-center lg:mt-20 mt-7">
-            <Link href="https://github.com/WladimirFilho">
+            <Link
+              target="_blank"
+              href="https://github.com/WladimirFilho"
+              download
+            >
               <AiFillGithub size={sizeIcons} />
             </Link>
-            <Link href="https://www.linkedin.com/in/wladimir-wiazowski-filho-70879030/">
+            <Link
+              target="_blank"
+              download
+              href="https://www.linkedin.com/in/wladimir-wiazowski-filho-70879030/"
+            >
               <AiFillLinkedin size={sizeIcons} />
             </Link>
 
-            <Link href="https://www.behance.net/WLADIMIRWF">
+            <Link
+              target="_blank"
+              href="https://www.behance.net/WLADIMIRWF"
+              download
+            >
               <BsBehance size={sizeIcons} />
             </Link>
             <div className="flex gap-4 items-center">
-              <Link href="/assets/wladimir_filho_resume.pdf" download>
+              <Link
+                target="_blank"
+                href="/assets/wladimir_filho_resume.pdf"
+                download
+              >
                 <MdOutlinePictureAsPdf size={sizeIcons} />
               </Link>
             </div>

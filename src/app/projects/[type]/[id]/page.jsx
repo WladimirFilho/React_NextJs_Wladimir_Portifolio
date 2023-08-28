@@ -7,6 +7,7 @@ import {
 } from "../../../data/projectsList";
 import { ImageComponent } from "../../components/ImageComponent";
 import { useRouter } from "next/navigation";
+import { RiArrowLeftSLine } from "react-icons/ri";
 
 const Project = ({ params }) => {
   const router = useRouter();
@@ -30,9 +31,9 @@ const Project = ({ params }) => {
         onClick={() => {
           router.back();
         }}
-        className="mb-6"
+        className="mb-6 flex items-center gap-2 font-semibold "
       >
-        - back
+        <RiArrowLeftSLine size={22} /> back
       </button>
 
       <section className="flex gap-14 lg:flex-row flex-col-reverse ">

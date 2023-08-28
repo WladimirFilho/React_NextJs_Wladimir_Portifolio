@@ -2,7 +2,6 @@ import { BsCircleFill } from "react-icons/all";
 import { InfoCard } from "./InfoCard";
 
 const Timeline = ({ title, icon, infoData }) => {
-  console.log(infoData);
   return (
     <div className="w-[380px]">
       <div className="flex items-center justify-start gap-4">

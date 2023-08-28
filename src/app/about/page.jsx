@@ -21,13 +21,16 @@ const About = () => {
     <div className="flex flex-col">
       <section className="lg:min-h-[calc(100vh-88px)] min-h-[calc(100vh-152px)] flex flex-col justify-center items-center">
         <h2 className="mainTitle mt-20">Education & experience</h2>
-        <div className="mt-20 mb-20 lg:mb-40 flex flex-row justify-center items-center gap-4 font-semibold rounded-lg border-yellow-400 hover:bg-slate-100 px-8 py-4 border-4 lg:mt-20">
+        <Link
+          target="_blank"
+          href="/assets/wladimir_filho_resume.pdf"
+          download
+          className="mt-20 mb-20 lg:mb-40 flex flex-row justify-center items-center gap-4 font-semibold rounded-lg border-yellow-400 hover:bg-slate-100 px-8 py-4 border-4 lg:mt-20"
+        >
           {" "}
           Download my resume in PDF
-          <Link href="/assets/wladimir_filho_resume.pdf" download>
-            <MdOutlinePictureAsPdf size={40} />
-          </Link>
-        </div>
+          <MdOutlinePictureAsPdf size={40} />
+        </Link>
 
         <div className="w-full flex flex-col lg:flex-row flex-wrap justify-center items-start gap-32">
           <div className="flex flex-col">

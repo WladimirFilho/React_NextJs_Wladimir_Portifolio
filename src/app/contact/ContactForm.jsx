@@ -2,7 +2,7 @@
 
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { ContactSchema } from "../contact/components/ContactSchema";
+import { ContactSchema } from "./ContactSchema";
 import emailJs from "@emailjs/browser";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -36,7 +36,6 @@ const ContactForm = () => {
       setValue("message", "");
     } catch (e) {
       toast.error("Error. Please, try again.");
-      console.log(e.message);
     }
   };
 
@@ -48,22 +47,32 @@ const ContactForm = () => {
       </h2>
       <form className="w-full" onSubmit={handleSubmit(sendEmailHandler)}>
         <div className="w-full lg:flex lg:gap-4">
-          <fieldset className="pl-4 border-[1px] border-black rounded-md overflow-hidden w-full">
-            <legend className="px-2">your name</legend>
-            <input
-              type="text"
-              className="pr-4 pb-4 outline-none"
-              {...register("name")}
-            />
-          </fieldset>
-          <fieldset className="pl-4 border-[1px] border-black rounded-md overflow-hidden w-full">
-            <legend className="px-2">your email</legend>
-            <input
-              type="text"
-              className="pr-4 pb-4 outline-none"
-              {...register("email")}
-            />
-          </fieldset>
+          <div>
+            <fieldset className="h-16 pl-4 border-[1px] border-black rounded-md overflow-hidden w-full">
+              <legend className="px-2">your name</legend>
+              <input
+                type="text"
+                className="pr-4 pb-4 outline-none"
+                {...register("name")}
+              />
+            </fieldset>
+            <span className="text-xs text-red-500">
+              {errors?.name?.message}
+            </span>
+          </div>
+          <div>
+            <fieldset className="h-16 pl-4 border-[1px] border-black rounded-md overflow-hidden w-full">
+              <legend className="px-2">your email</legend>
+              <input
+                type="text"
+                className="pr-4 pb-4 outline-none"
+                {...register("email")}
+              />
+            </fieldset>
+            <span className="text-xs text-red-500">
+              {errors?.email?.message}
+            </span>
+          </div>
         </div>
         <div className="lg:mt-4">
           <fieldset className="pl-4 border-[1px] border-black rounded-md overflow-hidden w-full">
@@ -73,9 +82,12 @@ const ContactForm = () => {
               {...register("message")}
             />
           </fieldset>
+          <span className="min-h-4 text-xs text-red-500">
+            {errors?.message?.message}
+          </span>
         </div>
         <input
-          className="mt-16 font-semibold text-xl bg-black py-4 px-12 rounded text-yellow-500 hover:bg-slate-700"
+          className=" cursor-pointer mt-16 font-semibold text-xl bg-black py-4 px-12 rounded text-yellow-500 hover:bg-slate-700"
           type="submit"
           value="Submit"
         />
