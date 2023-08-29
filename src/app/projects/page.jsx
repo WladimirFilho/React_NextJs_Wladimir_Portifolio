@@ -32,7 +32,7 @@ export default function Projects() {
   }, []);
 
   return (
-    <div className="w-full lg:min-h-[calc(100vh-160px)] flex flex-col justify-center">
+    <div className="w-full lg:min-h-[calc(100vh-160px)] flex flex-col justify-center pb-10">
       {/* <h1 className='mainTitle mt-20 mb-20'>Things I did!</h1> */}
       <div
         className="w-full flex justify-start

@@ -74,6 +74,34 @@ export const juniorDevProjectList = [
     projectIconGit: "/icons/git.svg",
   },
 
+  // Sushi Restaurant App
+  {
+    id: 10,
+    title: "🍣📱 Sushi Restaurant App",
+    description: "",
+    ideaDescription:
+      "This project utilizes Flutter and Dart to create a refined UI with seamless navigation. It emphasizes a harmonious blend of clean code and a robust architecture, capitalizing on reusable components and efficient state management techniques.",
+    features: [
+      "Using Provider as State Manager",
+      "Named navigation routing",
+      "Initial page app presentation",
+      "Main menu page that contains a promo banner, a list of items, and a favorite food card.",
+      "My cart page where you can add your food choices.",
+      "Details page for each item detailed.",
+    ],
+    techStack: [
+      "/assets/project_images/icons_images/flutter.png",
+      "/assets/project_images/icons_images/dart.svg",
+    ],
+    images: ["/sushi_cover.png"],
+    video: "/sushi_store_video.mov",
+    linkTitle: "See the project. Tell me what you think!",
+    projectIconVercel: "",
+    linkVercel: "",
+    linkGit: "https://github.com/WladimirFilho/Flutter_Sushi_Shop_App_UI",
+    projectIconGit: "/icons/git.svg",
+  },
+
   // Flutter Music Player App
   {
     id: 2,
