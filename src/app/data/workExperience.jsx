@@ -1,42 +1,37 @@
 export const workExperience = [
   {
-    title: "7 years in Australia",
+    title: "RECENT EXPERIENCE",
     subtitle: "",
     descriptionList: [],
     description:
-      "Over the past seven years, I have focused on my education, dedicating my time to gaining the skills necessary to be a developer. I have taken on various jobs during this time, unrelated to IT. I have also completed several freelance projects as a designer for various clients, most recently accepting a freelance role to create an Online Shop Web Application. Executing these projects have allowed me to develop and hone my skills as a frontend and mobile developer.",
+      "Moved to Australia in 2015 | Completed Advanced Diploma in technologies and business | Completed Bachelor of Information Technology | Worked in logistics in the shipping industry while studying full-time | Completed freelance design projects such as designing brands, social media posts and stationery materials work | Created, designed and developed a mobile app called MyFunCity, using Flutter and Firebase | Designed and developed my portfolio using React Js and Next Js",
   },
   {
-    title: "CC&P Advertising services - 2016",
-    subtitle: "Creative Art Director",
+    title: "CREATIVE ART DIRECTOR | JAN 2012 - APR 2017",
+    subtitle: "CC&P ADVERTISING SERVICE",
     descriptionList: [],
     description:
-      "Developed creative concepts, collaborated with teams to execute campaigns. Created ideas and solutions using tools such as movies, jingles, print and UX/UI. Managed projects simultaneously.",
+      "I've collaborated and created advertising concepts and developed cross-functionally integrated marketing campaigns. My work includes diverse solutions like commercial movie ideas, art direction, print layouts, web/mobile design, and UX/UI. I also managed multiple projects with precision and prioritised user-centric design for enhanced engagement.",
   },
   {
-    title: "Volcano Hotmind, Advertising and Production - 2012 ",
-    subtitle: "Art Director - UX/UI Designer",
+    title: "ART DIRECTOR | FEB 2010 - AUG 2012",
+    subtitle: "VOLCANO HOTMIND ADVERTISING AND PRODUCTION",
     descriptionList: [],
     description:
-      "Designing visuals to communicate brand messaging. Design ideas and UX/UI best practices to create products • Creating products such as Web applications, UX/UI experiences, printing products, presentation books • Pitching ideas to clients and brainstorm new campaigns with the team.",
+      "I've designed visuals to convey brand identity and messaging, creating concepts to share experiences. I'm adept at UX/UI for intuitive user experiences. Continuously updated with design trends, I've crafted various products, including web apps and presentations. I've pitched ideas to clients and collaborated with cross-functional teams of writers, artists, and directors to brainstorm new products.",
   },
   {
-    title: "DZN Advertising and Marketing - 2010 ",
-    subtitle: "Account Executive.",
+    title: "ACCOUNT EXECUTIVE | OCT 2009 - JAN 2010 ",
+    subtitle: "DZN ADVERTISING",
     descriptionList: [],
     description:
-      "Account Executive responsible to pitch new ideas to customers. Follow up on production process" +
-      " and products with print shops and other" +
-      " suppliers to ensure time and cost-effective delivery. And on top of that, maintaining a good relationship" +
-      " with clients.",
+      "Pitched new ideas to customers and developed slide proposals to communicate concepts and solutions effectively. Followed up on production processes and coordinated with print shops and suppliers to ensure timely delivery of products. Maintained solid relationships with clients through regular communication and engagement.",
   },
   {
-    title: "Carrefour Retail - 2007 ",
-    subtitle: "Advertising Analyst",
+    title: "ADVERTISING ANALYST | JUN 2007 - MAY 2009 ",
+    subtitle: "CARREFOUR RETAIL ",
     descriptionList: [],
     description:
-      "Working as an Advertising Analyst, I acquired the skills in analyzing campaigns and results to" +
-      " improve their effectiveness, using data and analytical tools to evaluate campaign performance, identify" +
-      " areas for improvement, and provide actionable recommendations.",
+      "Analyzed advertising campaigns and results to enhance their effectiveness. Used data and analytical tools, including dynamic tables from Excel and Access. Evaluated campaign performance and identify areas for improvement to provide actionable recommendations based on data analysis. Maintained regular contact with branches to receive daily reports. Collaborated with the marketing team to develop future action plans. Maximized sales through data-driven insights and strategic decision-making.",
   },
 ];

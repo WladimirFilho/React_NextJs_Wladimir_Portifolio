@@ -7,8 +7,6 @@ import {
   TfiRulerAlt2,
 } from "react-icons/all";
 import React from "react";
-import { ThingsCardsSection } from "./components/ThingsCardsSection";
-import { CertificationCardsSection } from "./components/CertificationCardsSection";
 import { certifications } from "../data/certifications";
 import Link from "next/link";
 
@@ -23,7 +21,7 @@ const About = () => {
         <h2 className="mainTitle mt-20">Education & experience</h2>
         <Link
           target="_blank"
-          href="/assets/wladimir_filho_resume.pdf"
+          href="/assets/wladimir_filho_dev_resume.pdf"
           download
           className="mt-20 mb-20 lg:mb-40 flex flex-row justify-center items-center gap-4 font-semibold rounded-lg border-yellow-400 hover:bg-slate-100 px-8 py-4 border-4 lg:mt-20"
         >
