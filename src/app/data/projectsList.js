@@ -8,17 +8,15 @@ export const juniorDevProjectList = [
   {
     id: 1,
     title: "My Fun City",
-    description:
-      "The MyFunCity project is a complete campaign to collect and analyze data from various target audiences via a mobile application to create a product that governments and businesses can use to track issues in people's environments and deliver ideas to help solve depression and anxiety issues. ",
+    description: "",
     ideaDescription:
-      'The project aims to bring people together in their community to identify and solve daily problems that may affect our lives. Still, because we are always busy and occupied, we need help to change our neighborhood. In those moments, one might wonder, "How can I make MY CITY better, more efficient, and more FUN?"\n' +
-      "Teenagers and young adults have the potential to be the most influential participants in this project. Smartphones, mobile applications, and technology are already essential to their daily lives. MyFunCity is a wordplay that is easy to remember and repeat, and it also explains our goal with that application and will undoubtedly connect with our target audience.\n",
+      "The project aims to bring people together in their community to identify and solve daily problems that may affect our lives. Still, because we are always busy and occupied, we need help to change our neighbourhood. In those moments, one might wonder, 'How can I make MY CITY better, more efficient, and more FUN?'. Teenagers and young adults have the potential to be the most influential participants in this project. Smartphones, mobile applications, and technology are already essential to their daily lives. MyFunCity is a wordplay that is easy to remember and repeat, and it also explains our goal with that application and will undoubtedly connect with our target audience.",
     features: [
-      "Firebase User Authentication allows users to securely sign in using their email credentials.",
-      "Data Collection: The project would utilize Firebase Firestore, a NoSQL document database.",
-      "Navigation: Version 1.0 of the Flutter framework. This would allow users to navigate between different sections or features of the application seamlessly.",
-      "Bottom Navigation Bar: Customized bottom navigation bar, providing easy access to critical sections or functionalities within the app.",
-      "Customized App Bar: Customized using the Preferred Size widget. This would allow for a visually appealing and consistent design across different screens and provide a cohesive user experience.",
+      "Firebase user authentication allows users to securely sign in using their email credentials",
+      "The  project uses Data collection using  Firebase Firestore",
+      "Navigation version 1.0 of the Flutter framework. Allows users to navigate between different sections or features of the application seamlessly.",
+      "Customized bottom navigation bar, providing easy access to critical sections or functionalities within the app.",
+      "Customized using the Preferred Size widget. This would allow for a visually appealing and consistent design across different screens and provide a cohesive user experience.",
     ],
     techStack: [
       "/assets/project_images/icons_images/flutter.png",
@@ -43,8 +41,7 @@ export const juniorDevProjectList = [
   {
     id: 4,
     title: "Wave Player",
-    description:
-      "An Elegant music player, that combines React Js, Props, Static Files and so on.",
+    description: "",
     ideaDescription:
       "Introducing Waves Music App, your charming companion for musical bliss. Waves is not just your ordinary music player; it's a delightful web app that creates an enchanting atmosphere for your listening pleasure. Unleash the power of Chillhop as Waves taps into a curated collection of soothing tunes that will transport you to tranquillity and inspiration. From laid-back beats to soul-stirring melodies, this app serves as your gateway to the mesmerizing world of Chillhop music",
     features: [
@@ -206,7 +203,7 @@ export const juniorDevProjectList = [
     title: "Web - Todo List",
     description: "",
     ideaDescription:
-      "The web app you developed is a simple note-taking application built using JavaScript (vanilla), HTML, and CSS. It provides users with a convenient way to create and manage their notes. The app leverages local web storage, allowing users to retain their notes even after reloading the webpage. With its minimalist design and user-friendly interface, this app offers a seamless note-taking experience.",
+      "The web app is a simple note-taking application built using JavaScript (vanilla), HTML, and CSS. It provides users with a convenient way to create and manage their notes. The app leverages local web storage, allowing users to retain their notes even after reloading the webpage. With its minimalist design and user-friendly interface, this app offers a seamless note-taking experience.",
     features: [
       "New notes can easily create new notes by inputting text into the app. The interface provides a space to enter and save the contents of each note.",
       "Check complete notes clicking the checkbox, allowing users to mark notes as completed or finished. This feature helps users keep track of their tasks and quickly identify which notes have been addressed.",
