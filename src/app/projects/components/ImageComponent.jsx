@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { VideoPlayer } from "./VideoPlayer";
 
 export const ImageComponent = ({ project }) => {
   return (
@@ -7,7 +6,7 @@ export const ImageComponent = ({ project }) => {
       {project.images.map((image, index) => (
         <Image
           key={image.id}
-          unoptimized={true}
+          unoptimized
           alt="images"
           className="w-full h-auto mb-12"
           width={2000}
@@ -19,7 +18,6 @@ export const ImageComponent = ({ project }) => {
 
       {project.video === "" ? null : (
         <>
-          {/* <VideoPlayer videoLink={project.video} /> */}
           <video width="950" height="500" controls>
             <source src={project.video} type="video/mp4" />
           </video>

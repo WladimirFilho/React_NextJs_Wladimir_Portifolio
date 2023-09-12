@@ -339,7 +339,6 @@ export const designerProjectList = [
       "/assets/project_images/br_mania/1.png",
       "/assets/project_images/br_mania/2.jpg",
     ],
-
     video: "",
     linkTitle: "See the project on behance.",
     projectIconVercel: "",
@@ -348,9 +347,60 @@ export const designerProjectList = [
     projectIconGit: "/icons/behance.svg",
   },
 
-  // It is Painting a New subway
+  // Nescafe add
   {
     id: 2,
+    title: "Nescafe Composing",
+    description: "",
+    ideaDescription: "",
+
+    features: ["Art Direction", "Photoshop Image composing"],
+    techStack: [
+      "/assets/project_images/icons_images/ai.png",
+      "/assets/project_images/icons_images/ps.png",
+      "/assets/project_images/icons_images/id.png",
+    ],
+    images: ["/Nescafe_add_final.png", "/Nescafe_steps.png"],
+
+    video: "",
+    linkTitle: "See the project on behance.",
+    projectIconVercel: "",
+    linkVercel: "",
+    linkGit: "",
+    projectIconGit: "/icons/behance.svg",
+  },
+
+  // Detran add
+  {
+    id: 3,
+    title: "Detran Summer",
+    description: "",
+    ideaDescription:
+      "As the Art Director and Designer for this project, my team and I collaborated to create a summer marketing campaign targeting individuals seeking enjoyment in their summer activities. The Department of Safety and Transit in Brazil, known as 'Detran', launched a campaign during the summer season to caution people about driving to beach areas, emphasizing the potential life-saving importance of avoiding common mistakes. With titles like 'Summer is too good to let a beer ruin it for you' and 'Summer is too good to let a text message ruin it for you', the campaign primarily aims to remind individuals about critical details that can safeguard lives.",
+
+    features: [
+      "Art direction",
+      "Photoshop image composing",
+      "Marketing campaign",
+    ],
+    techStack: [
+      "/assets/project_images/icons_images/ai.png",
+      "/assets/project_images/icons_images/ps.png",
+      "/assets/project_images/icons_images/id.png",
+    ],
+    images: ["/detran_3.jpg", "/detran_2.jpg", "/detran_1.jpg"],
+
+    video: "",
+    linkTitle: "See the project on behance.",
+    projectIconVercel: "",
+    linkVercel: "",
+    linkGit: "",
+    projectIconGit: "/icons/behance.svg",
+  },
+
+  // It is Painting a New subway
+  {
+    id: 4,
     title: "It is Painting a New subway",
     description:
       "The public transportation of São Paulo, Brazil, is hosting a cultural competition campaign. The" +
@@ -388,7 +438,7 @@ export const designerProjectList = [
 
   // Santa Rita
   {
-    id: 3,
+    id: 5,
     title: "Santa Rita Movies Production",
     description:
       "The design project entails creating a comprehensive stationary pack, which encompasses various elements such as a logo guideline, business card, brochure, and more.",
@@ -426,7 +476,7 @@ export const designerProjectList = [
 
   // Sao Paulo Country Parade
   {
-    id: 4,
+    id: 6,
     title: "Sao Paulo Country Parade",
     description:
       'The "Festa de Peão," which translates to Cowboy Party, is a lively Brazilian event centered around a country theme. It offers attendees the opportunity to indulge in traditional cuisine and immerse themselves in the vibrant sounds of typical music.',
@@ -468,7 +518,7 @@ export const designerProjectList = [
 
   // e-Club Vacation
   {
-    id: 5,
+    id: 7,
     title: "e-Club Vacation care",
     description:
       "e-Club is an innovative online entertainment center designed exclusively for children. It functions as a virtual school that provides educational support, engaging lessons, and stimulating activities, ensuring that kids are occupied and entertained while their parents attend to their responsibilities.",
@@ -505,7 +555,7 @@ export const designerProjectList = [
 
   // Art on Site
   {
-    id: 6,
+    id: 8,
     title: "Art on Site",
     description:
       '"Arte na obra" that stands for "Art on Site" was an integral component of the larger campaign' +
