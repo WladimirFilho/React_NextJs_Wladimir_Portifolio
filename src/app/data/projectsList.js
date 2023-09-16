@@ -350,7 +350,7 @@ export const designerProjectList = [
   // Nescafe add
   {
     id: 2,
-    title: "Nescafe Composing",
+    title: "Nescafe Campaign",
     description: "",
     ideaDescription: "",
 
@@ -436,6 +436,24 @@ export const designerProjectList = [
     projectIconGit: "/icons/behance.svg",
   },
 
+  // Photoshop Composition
+  {
+    id: 9,
+    title: "Photoshop Composition",
+    description: "",
+    ideaDescription: "",
+
+    features: ["Art Direction", "Photoshop Image composing"],
+    techStack: ["/assets/project_images/icons_images/ps.png"],
+    images: ["/dark_night_composing_final.png"],
+
+    video: "",
+    linkTitle: "See the project on behance.",
+    projectIconVercel: "",
+    linkVercel: "",
+    linkGit: "",
+    projectIconGit: "/icons/behance.svg",
+  },
   // Santa Rita
   {
     id: 5,
