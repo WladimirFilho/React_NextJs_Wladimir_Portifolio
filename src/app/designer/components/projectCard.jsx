@@ -4,7 +4,7 @@ import Link from "next/link";
 const ProjectCard = ({ project, type }) => {
   return (
     <li className="relative group overflow-hidden">
-      <Link href={`/projects/${type}/${project.id}`}>
+      <Link href={`/${type}/${project.id}`}>
         <div className="hidden w-full h-full absolute group-hover:flex flex-col justify-center items-center bg-[rgba(255,255,255,0.9)]">
           <h3 className="mb-4 text-3xl font-semibold">{project.title}</h3>
           <ul className="flex">

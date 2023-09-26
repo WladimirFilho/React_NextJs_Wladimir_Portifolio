@@ -2,9 +2,15 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useState, useEffect } from "react";
 
 export const Navbar = () => {
+  const [type, setType] = useState("");
   const path = usePathname();
+
+  useEffect(() => {
+    setType(localStorage.getItem("type"));
+  }, []);
 
   return (
     <header className="max-w-[1640px] mx-auto p-8 flex flex-col items-center lg:flex-row">
@@ -12,7 +18,10 @@ export const Navbar = () => {
         <ul className="w-full flex lg:flex-row flex-col justify-between items-center lg:gap-20 gap-8">
           <div>
             <li className="mb-10 lg:mb-0 font-semibold ">
-              <Link className="text-xl" href="/">
+              <Link
+                className="text-xl"
+                href={type === "designer" ? "/designer" : "/developer"}
+              >
                 <span className={path === "/" ? "text-yellow-500" : null}>
                   .wladimir
                 </span>
