@@ -4,7 +4,7 @@ import ProjectCard from "./components/projectCard";
 import { useEffect } from "react";
 import { juniorDevProjectList } from "../data/projectsList";
 
-export default function DesignerProjects() {
+export default function DeveloperProjects() {
   useEffect(() => {
     localStorage.setItem("type", "developer");
   }, []);

@@ -1,19 +1,14 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import DeveloperProjects from "../app/developer/page";
+import DesignerProjects from "../app/designer/page";
 
 export default function Home() {
-  const [type, setType] = useState("");
-
-  useEffect(() => {
-    setType(localStorage.getItem("type"));
-  }, []);
+  const type = localStorage.getItem("type") || "developer";
 
   return (
-    <div className="flex flex-col ">
-      <div className="lg:h-[calc(100vh-170px)] h-[calc(100vh-152px)]">
-        {type === "designer" ? "" : ""}
-      </div>
+    <div className="w-full">
+      {type === "designer" ? <DesignerProjects /> : <DeveloperProjects />}
     </div>
   );
 }

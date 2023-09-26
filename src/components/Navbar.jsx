@@ -5,12 +5,9 @@ import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 
 export const Navbar = () => {
-  const [type, setType] = useState("");
   const path = usePathname();
 
-  useEffect(() => {
-    setType(localStorage.getItem("type"));
-  }, []);
+  const type = localStorage.getItem("type");
 
   return (
     <header className="max-w-[1640px] mx-auto p-8 flex flex-col items-center lg:flex-row">
