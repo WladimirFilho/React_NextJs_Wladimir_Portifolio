@@ -2,12 +2,15 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState, useEffect } from "react";
 
 export const Navbar = () => {
   const path = usePathname();
+  let type;
 
-  const type = localStorage.getItem("type");
+  if (typeof window !== "undefined") {
+    // Perform localStorage action
+    type = localStorage.getItem("type");
+  }
 
   return (
     <header className="max-w-[1640px] mx-auto p-8 flex flex-col items-center lg:flex-row">
@@ -20,7 +23,7 @@ export const Navbar = () => {
                 href={type === "designer" ? "/designer" : "/developer"}
               >
                 <span className={path === "/" ? "text-yellow-500" : null}>
-                  .wladimir
+                  wladimir filho
                 </span>
               </Link>
             </li>
