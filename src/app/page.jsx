@@ -4,7 +4,11 @@ import DeveloperProjects from "../app/developer/page";
 import DesignerProjects from "../app/designer/page";
 
 export default function Home() {
-  const type = localStorage.getItem("type") || "developer";
+  let type;
+
+  if (typeof window !== "undefined") {
+    type = localStorage.getItem("type") || "developer";
+  }
 
   return (
     <div className="w-full">
