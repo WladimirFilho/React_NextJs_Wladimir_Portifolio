@@ -332,6 +332,7 @@ export const designerProjectList = [
       "/kiyoshi/placement_01.png",
       "/kiyoshi/1.jpg",
       "/kiyoshi/9.jpg",
+      "/kiyoshi/10.png",
       "/kiyoshi/2.jpg",
       "/kiyoshi/logo.png",
       "/kiyoshi/logo_concept.png",
