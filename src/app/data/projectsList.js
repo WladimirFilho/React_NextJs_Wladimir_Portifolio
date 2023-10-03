@@ -315,6 +315,64 @@ export const juniorDevProjectList = [
 ////////////////////////////////////////////////////////////////////////
 
 export const designerProjectList = [
+  {
+    id: 10,
+    title: "🍣🥢 KIYOSHI RESTAURANT",
+    description: "",
+    ideaDescription:
+      "A carefully created Logo using typography technics, that reflects the balance of tradition and innovation, ensuring that the brand communicates with clarity and sophistication.A menu design strikes the ideal balance between functionality and aesthetics. It showcases clean typography, and intuitive organization, enhancing the dining experience. Artful Stationery, from business cards to letterheads, each piece is a testament to your commitment to excellence.",
+
+    features: ["Art Direction", "Vector", "Branding", "Typography"],
+    techStack: [
+      "/assets/project_images/icons_images/ai.png",
+      "/assets/project_images/icons_images/ps.png",
+      "/assets/project_images/icons_images/id.png",
+    ],
+    images: [
+      "/kiyoshi/placement_01.png",
+      "/kiyoshi/1.jpg",
+      "/kiyoshi/9.jpg",
+      "/kiyoshi/2.jpg",
+      "/kiyoshi/logo.png",
+      "/kiyoshi/logo_concept.png",
+    ],
+
+    video: "",
+    linkTitle: "See the project on behance.",
+    projectIconVercel: "",
+    linkVercel: "",
+    linkGit: "",
+    projectIconGit: "/icons/behance.svg",
+  },
+
+  // Nescafe add
+  {
+    id: 2,
+    title: "☕️ Nescafe composition",
+    description: "",
+    ideaDescription:
+      "An elegant and carefully curated visual art, that was created for a Nescafe campaign. The final image is a collection of different images, image composition, light manipulation, and much more. All this is to export an idea that exudes freshness and tradition. Two adjectives that can be used to describe the coffee that is well known by many families.",
+
+    features: [
+      "Art Direction",
+      "Photoshop Image composing",
+      "Light manipulation",
+    ],
+    techStack: [
+      "/assets/project_images/icons_images/ai.png",
+      "/assets/project_images/icons_images/ps.png",
+      "/assets/project_images/icons_images/id.png",
+    ],
+    images: ["/Nescafe_add_final.png", "/Nescafe_steps.png"],
+
+    video: "",
+    linkTitle: "See the project on behance.",
+    projectIconVercel: "",
+    linkVercel: "",
+    linkGit: "",
+    projectIconGit: "/icons/behance.svg",
+  },
+
   // BR Mania
   {
     id: 1,
@@ -344,29 +402,6 @@ export const designerProjectList = [
     projectIconVercel: "",
     linkVercel: "",
     linkGit: "https://www.behance.net/gallery/66127745/BR-Mania",
-    projectIconGit: "/icons/behance.svg",
-  },
-
-  // Nescafe add
-  {
-    id: 2,
-    title: "Nescafe Campaign",
-    description: "",
-    ideaDescription: "",
-
-    features: ["Art Direction", "Photoshop Image composing"],
-    techStack: [
-      "/assets/project_images/icons_images/ai.png",
-      "/assets/project_images/icons_images/ps.png",
-      "/assets/project_images/icons_images/id.png",
-    ],
-    images: ["/Nescafe_add_final.png", "/Nescafe_steps.png"],
-
-    video: "",
-    linkTitle: "See the project on behance.",
-    projectIconVercel: "",
-    linkVercel: "",
-    linkGit: "",
     projectIconGit: "/icons/behance.svg",
   },
 
@@ -440,12 +475,17 @@ export const designerProjectList = [
   {
     id: 9,
     title: "Photoshop Composition",
-    description: "",
+    description:
+      "Creating a Photoshop composition is an easy way to exercise my criativity and show my editing skills. All of them can be applyed to new projects in a variety of different products",
     ideaDescription: "",
 
     features: ["Art Direction", "Photoshop Image composing"],
     techStack: ["/assets/project_images/icons_images/ps.png"],
-    images: ["/dark_night_composing_final.png"],
+    images: [
+      "/ocean_monster_final_project.png",
+      "/dark_night_composing_final.png",
+      "/castle_composing.png",
+    ],
 
     video: "",
     linkTitle: "See the project on behance.",
